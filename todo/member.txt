@@ -1,0 +1,342 @@
+Member Dashboard
+Top Header
+---------------------------------------------------------
+☰ Menu                Member Dashboard
+
+🔍 Search
+
+🔔 Notifications
+
+👤 My Profile ▼
+---------------------------------------------------------
+Left Sidebar
+🏠 Dashboard
+
+👤 My Profile
+
+🆔 KYC Verification
+
+👥 My Team
+
+🤝 Referrals
+
+🏢 Franchise Gallery Deals
+
+💰 Wallet
+
+💵 Income
+
+🎯 Monthly Target
+
+📦 Subscription
+
+📄 Documents
+
+🏆 Rank & Rewards
+
+📈 Reports
+
+🎫 Support Tickets
+
+⚙ Settings
+
+🚪 Logout
+Dashboard Cards
+┌─────────────────────────┐
+👥 Total Referrals
+48 / 50
+[View Referrals]
+└─────────────────────────┘
+
+┌─────────────────────────┐
+🏢 Gallery Deals
+0 / 1
+[View Deals]
+└─────────────────────────┘
+
+┌─────────────────────────┐
+🎯 Monthly Target
+72% Complete
+[View Target]
+└─────────────────────────┘
+
+┌─────────────────────────┐
+💰 Wallet Balance
+₹89,800
+[Open Wallet]
+└─────────────────────────┘
+
+┌─────────────────────────┐
+🏆 Current Rank
+Gold Member
+[View Rank]
+└─────────────────────────┘
+
+┌─────────────────────────┐
+💵 Monthly Income
+₹18,700
+[Income Report]
+└─────────────────────────┘
+
+┌─────────────────────────┐
+📦 Active Package
+Platinum
+[Upgrade Package]
+└─────────────────────────┘
+
+┌─────────────────────────┐
+✅ Task Status
+Pending
+[View Requirements]
+└─────────────────────────┘
+🎯 Monthly Target (Most Important Section)
+-------------------------------------------------------
+
+Monthly Performance
+
+-------------------------------------------------------
+
+Target 1
+
+✅ Franchise Gallery Deal
+
+Required : 1
+
+Completed : 0
+
+Status : Pending
+
+[View Gallery Deals]
+
+-------------------------------------------------------
+
+Target 2
+
+👥 Direct Referrals
+
+Required : 50
+
+Completed : 48
+
+Remaining : 2
+
+Status : In Progress
+
+[View Referrals]
+
+-------------------------------------------------------
+
+Overall Monthly Status
+
+❌ Pending
+
+Reason
+
+• 1 Franchise Gallery Deal Required
+
+• 2 More Referrals Required
+
+-------------------------------------------------------
+
+Reward Eligibility
+
+❌ Not Eligible
+
+Complete all monthly targets to receive
+
+✔ Salary
+
+✔ Incentives
+
+✔ Rewards
+
+✔ Rank Benefits
+
+-------------------------------------------------------
+Franchise Gallery Deal
+-------------------------------------------------------
+
+Gallery Name
+
+Gallery Owner
+
+Location
+
+Deal Amount
+
+Approval Status
+
+Deal Date
+
+Documents
+
+Verification Status
+
+-------------------------------------------------------
+
+Buttons
+
+➕ Add Gallery Deal
+
+👁 View Details
+
+📄 Upload Agreement
+
+📤 Submit For Approval
+
+Referral Section
+-------------------------------------------------------
+
+Referral ID
+
+Member Name
+
+Joining Date
+
+Package
+
+Status
+
+Verification
+
+-------------------------------------------------------
+
+Buttons
+
+➕ Add Referral
+
+👁 View
+
+📄 Download
+
+📤 Share Referral Link
+
+Task Completion Card
+-------------------------------------------------------
+
+Monthly Task Completion
+
+Gallery Deal
+
+0 / 1
+
+Referrals
+
+48 / 50
+
+Overall Progress
+
+96%
+
+Task Status
+
+❌ Pending
+
+-------------------------------------------------------
+Reward Status
+-------------------------------------------------------
+
+Salary
+
+❌ Locked
+
+Referral Bonus
+
+❌ Locked
+
+Gallery Commission
+
+❌ Locked
+
+Monthly Incentive
+
+❌ Locked
+
+Rank Reward
+
+❌ Locked
+
+-------------------------------------------------------
+
+Once targets are completed:
+
+-------------------------------------------------------
+
+Gallery Deal
+
+1 / 1 ✅
+
+Referrals
+
+50 / 50 ✅
+
+Overall Progress
+
+100%
+
+Task Status
+
+✅ Completed
+
+Salary
+
+Unlocked
+
+Referral Bonus
+
+Unlocked
+
+Gallery Commission
+
+Unlocked
+
+Rank Reward
+
+Unlocked
+
+-------------------------------------------------------
+Reports
+Monthly Referral Report
+
+Monthly Gallery Report
+
+Income Report
+
+Commission Report
+
+Wallet Report
+
+Rank Report
+
+Performance Report
+
+Target Achievement Report
+Business Rules (Backend Logic)
+Monthly Gallery Deal Target = 1
+
+Monthly Referral Target = 50
+
+IF GalleryDeal >= 1
+AND ReferralCount >= 50
+
+THEN
+
+Task Status = Completed
+
+Salary = Released
+
+Commission = Released
+
+Rewards = Released
+
+ELSE
+
+Task Status = Pending
+
+Salary = Hold
+
+Commission = Hold
+
+Rewards = Hold
+
+This dashboard makes it very clear to members what they have achieved, what remains to be done, and whether they are eligible for monthly payouts and rewards. It also provides straightforward navigation to the actions needed to complete their targets.

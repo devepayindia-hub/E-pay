@@ -1,0 +1,748 @@
+🏢 Gallery Manager Dashboard
+Dashboard Cards
+Today's Sales
+
+₹1,85,000
+
+-------------------------
+
+Monthly Sales
+
+₹42,50,000
+
+-------------------------
+
+Today's Expenses
+
+₹18,500
+
+-------------------------
+
+Monthly Expenses
+
+₹4,25,000
+
+-------------------------
+
+Available Inventory
+
+₹18,75,000
+
+-------------------------
+
+Employees
+
+26
+
+-------------------------
+
+Present Today
+
+24
+
+-------------------------
+
+Pending Salary
+
+₹2,45,000
+
+-------------------------
+
+Today's Customers
+
+185
+
+-------------------------
+
+New Members
+
+18
+
+-------------------------
+
+Pending Complaints
+
+5
+
+-------------------------
+
+Gallery Performance
+
+94%
+Sidebar Menu
+🏠 Dashboard
+
+👨‍💼 Employee Management
+
+💰 Salary Management
+
+📝 Attendance
+
+🕒 Shift Management
+
+🎯 Task Management
+
+📊 Employee Performance
+
+📦 Inventory Management
+
+🛒 Stock Purchase
+
+🔄 Stock Transfer
+
+📉 Damaged Stock
+
+🏪 Store Assets
+
+💸 Expense Management
+
+💳 Payments
+
+🏦 Petty Cash
+
+📄 Purchase Orders
+
+🚚 Vendors
+
+👥 Customers
+
+⭐ Membership
+
+🎫 Complaints
+
+📦 Orders
+
+📈 Sales
+
+🏢 Franchise Details
+
+📑 Reports
+
+🔔 Notifications
+
+⚙ Gallery Settings
+Employee Management
+
+Fields
+
+Employee ID
+
+Employee Name
+
+Department
+
+Designation
+
+Joining Date
+
+Shift
+
+Attendance
+
+Leave Balance
+
+Salary
+
+Incentive
+
+Status
+
+Contact Number
+
+Emergency Contact
+
+Documents
+
+Bank Details
+
+Buttons
+
+Add Employee
+
+Edit
+
+Transfer
+
+Suspend
+
+Terminate
+
+Assign Task
+
+View Performance
+
+Attendance
+Attendance Management
+Employee Name
+
+Check In
+
+Check Out
+
+Late Entry
+
+Break Time
+
+Working Hours
+
+Overtime
+
+Leave
+
+Absent
+
+Half Day
+
+Remarks
+Salary Management
+Employee
+
+Department
+
+Basic Salary
+
+Allowances
+
+Incentives
+
+Bonus
+
+Deductions
+
+PF
+
+ESIC
+
+Advance
+
+Net Salary
+
+Payment Status
+
+Payment Date
+
+Buttons
+
+Generate Salary
+
+Approve
+
+Pay Salary
+
+Salary Slip
+
+Export Payroll
+Expense Management
+
+Expense Categories
+
+Electricity Bill
+
+Water Bill
+
+Internet
+
+WiFi
+
+Rent
+
+Housekeeping
+
+Cleaning
+
+Tea & Coffee
+
+Pantry
+
+Office Supplies
+
+Stationery
+
+Courier
+
+Marketing
+
+Facebook Ads
+
+Google Ads
+
+Travel
+
+Fuel
+
+Maintenance
+
+Repairs
+
+Security
+
+Printer Ink
+
+Computer Repair
+
+Software Subscription
+
+Internet Recharge
+
+Mobile Recharge
+
+Festival Expenses
+
+Employee Welfare
+
+Miscellaneous
+
+Expense Entry
+
+Expense ID
+
+Expense Category
+
+Expense Date
+
+Vendor
+
+Bill Number
+
+Amount
+
+GST
+
+Payment Mode
+
+Paid By
+
+Approved By
+
+Attachment
+
+Remarks
+
+Buttons
+
+Add Expense
+
+Approve
+
+Reject
+
+View Bill
+
+Download Invoice
+Inventory Management
+Product ID
+
+Product Name
+
+Category
+
+SKU
+
+Barcode
+
+Current Stock
+
+Minimum Stock
+
+Maximum Stock
+
+Purchase Price
+
+Selling Price
+
+Supplier
+
+Warehouse
+
+Batch Number
+
+Expiry Date
+
+Status
+
+Buttons
+
+Add Stock
+
+Transfer Stock
+
+Stock Audit
+
+Stock Adjustment
+
+Print Barcode
+Purchase Orders
+PO Number
+
+Vendor
+
+Purchase Date
+
+Items
+
+Quantity
+
+Amount
+
+GST
+
+Delivery Date
+
+Status
+Vendor Management
+Vendor ID
+
+Vendor Name
+
+Contact Person
+
+Phone
+
+Email
+
+GST Number
+
+PAN
+
+Outstanding
+
+Rating
+
+Last Purchase
+Store Assets
+Asset ID
+
+Asset Name
+
+Purchase Date
+
+Warranty
+
+AMC
+
+Assigned To
+
+Condition
+
+Maintenance Date
+
+Status
+Customer Management
+Customer ID
+
+Customer Name
+
+Mobile
+
+Membership
+
+Wallet
+
+Total Purchases
+
+Reward Points
+
+Last Visit
+
+Feedback
+
+Status
+Sales Dashboard
+Today's Sales
+
+Yesterday's Sales
+
+Weekly Sales
+
+Monthly Sales
+
+Yearly Sales
+
+Average Bill Value
+
+Highest Bill
+
+Lowest Bill
+
+Refunds
+
+Cancelled Bills
+Complaint Management
+Complaint ID
+
+Customer
+
+Issue
+
+Assigned To
+
+Priority
+
+Status
+
+Resolution
+
+Customer Rating
+Employee Performance
+Employee
+
+Sales
+
+Attendance
+
+Task Completion
+
+Customer Feedback
+
+Late Marks
+
+Target Achievement
+
+Performance Score
+Daily Tasks
+Inventory Check
+
+Employee Attendance
+
+Sales Review
+
+Cash Verification
+
+Customer Complaints
+
+Vendor Payments
+
+Expense Verification
+
+Gallery Cleanliness
+
+Security Check
+
+Closing Checklist
+
+Progress Bar
+
+Today's Tasks
+
+███████████████░░░░
+
+78%
+
+39 / 50 Completed
+Monthly Gallery Target
+Sales Target
+
+₹50,00,000
+
+Completed
+
+₹38,75,000
+
+███████████████░░░░
+
+78%
+
+--------------------------------
+
+Membership Target
+
+250
+
+Completed
+
+186
+
+74%
+
+--------------------------------
+
+Expense Target
+
+₹5,00,000
+
+Current
+
+₹4,20,000
+
+84%
+AI Gallery Insights
+Sales increased by 15%.
+
+Inventory for Printer Paper is low.
+
+Employee attendance dropped by 8%.
+
+Tea expenses are higher than last month.
+
+Electricity bill increased by ₹12,000.
+
+Top-selling product
+
+Google Ads generated 42 customers.
+
+Customer satisfaction
+
+4.8/5
+Notifications
+Salary pending
+
+Low stock alert
+
+Customer complaint
+
+Inventory mismatch
+
+Rent due
+
+Electricity bill due
+
+Vendor payment due
+
+Employee birthday
+
+Leave request
+
+Maintenance reminder
+Reports (40+ Enterprise Reports)
+Employee Reports
+Employee Master Report
+Department-wise Employee Report
+Attendance Report
+Late Attendance Report
+Overtime Report
+Leave Report
+Performance Report
+Incentive Report
+Salary Report
+Salary Register
+Bank Transfer Report
+Employee Document Report
+Employee Transfer Report
+Exit Employee Report
+Inventory Reports
+Current Stock Report
+Stock Valuation Report
+Stock Movement Report
+Stock Transfer Report
+Stock Adjustment Report
+Low Stock Report
+Zero Stock Report
+Damaged Stock Report
+Expired Stock Report
+Stock Audit Report
+Barcode Report
+Item-wise Inventory Report
+Category-wise Inventory Report
+Expense Reports
+Daily Expense Report
+Monthly Expense Report
+Category-wise Expense Report
+Vendor-wise Expense Report
+Utility Expense Report
+Pantry Expense Report
+Rent Report
+Electricity Report
+Internet/WiFi Report
+Maintenance Report
+Marketing Expense Report
+Petty Cash Report
+Expense Approval Report
+Sales Reports
+Daily Sales Report
+Weekly Sales Report
+Monthly Sales Report
+Yearly Sales Report
+Product-wise Sales Report
+Employee-wise Sales Report
+Customer-wise Sales Report
+Membership Sales Report
+Refund Report
+Cancelled Bill Report
+Revenue Summary
+Profit & Loss Report
+Customer Reports
+Customer Master Report
+New Customer Report
+Returning Customer Report
+Membership Report
+Wallet Report
+Loyalty Points Report
+Complaint Report
+Feedback Report
+Customer Visit Report
+Vendor Reports
+Vendor Master Report
+Purchase Report
+Outstanding Vendor Report
+Vendor Payment Report
+Vendor Rating Report
+Financial Reports
+Cash Book
+Bank Book
+Petty Cash Book
+Daily Collection Report
+Expense Ledger
+Income Ledger
+General Ledger
+Trial Balance
+Profit & Loss Statement
+Cash Flow Statement
+Operational Reports
+Gallery Performance Report
+Daily Operations Report
+Opening & Closing Checklist Report
+Asset Maintenance Report
+Utility Consumption Report
+CCTV Health Report
+Incident Report
+Audit Report
+🚀 Enterprise-Level Features (Highly Recommended)
+📍 Multi-Level Approval Workflow
+
+Gallery Managers can create purchase requests, salary changes, or expense approvals, but final approval can be routed to the Gallery Owner, Finance Manager, or Head Office based on configurable approval limits.
+
+📋 Digital Checklists
+
+Create recurring checklists for:
+
+Opening store
+Closing store
+Fire safety inspection
+Daily inventory verification
+Cash reconciliation
+Cleanliness audit
+Equipment health checks
+📷 Photo-Based Verification
+
+Managers can upload photos for:
+
+Daily store opening
+Stock receipts
+Damaged products
+Maintenance work
+Visual merchandising displays
+Customer complaint resolutions
+🎯 Target & KPI Dashboard
+
+Track:
+
+Sales targets
+Membership targets
+Customer satisfaction
+Inventory accuracy
+Employee attendance
+Expense control
+Complaint resolution time
+🤖 AI Business Assistant
+
+Provide proactive recommendations such as:
+
+Predicting stock shortages based on sales trends.
+Highlighting abnormal expenses.
+Identifying top-performing employees.
+Forecasting monthly revenue.
+Suggesting optimal reorder quantities.
+Recommending promotions for slow-moving inventory.
+Detecting unusual operational patterns that require manager attention.
+
+With these modules, the Gallery Manager becomes the complete operational head of their assigned gallery while remaining within the permissions defined by the Gallery Owner and Head Office. This design is suitable for managing hundreds or even thousands of franchise locations from a centralized ERP/CRM platform.

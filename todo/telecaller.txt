@@ -1,0 +1,975 @@
+📞 Telecaller Dashboard
+Top Performance Cards
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📞 Today's Leads
+100 Assigned
+🟢 42 Contacted
+🟡 35 Pending
+🔴 23 Not Attempted
+
+[Open Lead List]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☎ Today's Calls
+
+Target : 100
+
+Completed : 76
+
+Remaining : 24
+
+██████████████████░░░░░
+
+76%
+
+[Call Queue]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 Daily Target
+
+Calls Target : 100
+
+Calls Done : 76
+
+Target Completion
+
+██████████████████░░░░░
+
+76%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏆 Monthly Activation Target
+
+Required : 40
+
+Completed : 28
+
+Remaining : 12
+
+██████████████░░░░░░░░
+
+70%
+
+Expected Incentive
+
+₹18,500
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Lead Status
+New Leads
+
+18
+
+Contacted
+
+42
+
+Interested
+
+21
+
+Follow-up
+
+14
+
+Meeting Scheduled
+
+8
+
+Converted
+
+28
+
+Not Interested
+
+5
+
+Wrong Number
+
+2
+
+Call Back Requested
+
+6
+
+Pending Calls
+
+24
+Today's Lead Distribution
+Total Leads Assigned
+
+100
+
+Website
+
+20
+
+Facebook
+
+15
+
+Google Ads
+
+25
+
+Instagram
+
+10
+
+WhatsApp
+
+12
+
+Referral
+
+8
+
+Walk-in
+
+5
+
+Other
+
+5
+Call Performance
+Today's Calls
+
+76
+
+Connected Calls
+
+58
+
+Not Connected
+
+9
+
+Busy
+
+3
+
+Switched Off
+
+2
+
+Wrong Number
+
+2
+
+Rejected
+
+2
+
+Average Call Duration
+
+4 min 12 sec
+
+Longest Call
+
+18 min
+
+Shortest Call
+
+12 sec
+Monthly Performance
+Monthly Calls
+
+1,945
+
+Monthly Activations
+
+28
+
+Monthly Revenue Generated
+
+₹14,50,000
+
+Average Daily Calls
+
+81
+
+Average Conversion
+
+14%
+
+Current Rank
+
+#5
+
+Attendance
+
+100%
+
+Working Days
+
+22 / 26
+Monthly Target
+Monthly Activations
+
+Required
+
+40
+
+Completed
+
+28
+
+Remaining
+
+12
+
+██████████████░░░░░░░░
+
+70%
+
+Status
+
+In Progress
+Incentive Calculator
+Monthly Activation
+
+40+
+
+Salary Released
+
+✅
+
+50+
+
+₹5,000 Bonus
+
+60+
+
+₹10,000 Bonus
+
+75+
+
+₹20,000 Bonus
+
+100+
+
+Star Performer
+Daily Task Progress
+Daily Calls
+
+100
+
+██████████████████░░░░
+
+76%
+
+Lead Follow-ups
+
+20
+
+████████████████░░░░░░
+
+80%
+
+Interested Leads
+
+15
+
+██████████████░░░░░░░░
+
+73%
+
+Meetings Scheduled
+
+10
+
+████████████░░░░░░░░░░
+
+60%
+Monthly Progress
+Calls Target
+
+2500
+
+█████████████████░░░░░
+
+78%
+
+Activations
+
+40
+
+██████████████░░░░░░░░
+
+70%
+
+Revenue Target
+
+₹20,00,000
+
+████████████████░░░░░░
+
+82%
+
+Attendance
+
+100%
+
+██████████████████████
+
+100%
+Lead Queue
+Field
+Lead ID
+Customer Name
+Mobile Number
+City
+Lead Source
+Interested Product
+Lead Priority
+Last Call
+Next Follow-up
+Lead Score
+Current Status
+Assigned Date
+Assigned By
+Remarks
+Action
+
+Buttons
+
+📞 Call
+
+💬 WhatsApp
+
+📧 Email
+
+📅 Schedule Follow-up
+
+👁 View
+
+✏ Update
+
+✔ Convert
+
+❌ Close
+Daily Activity
+First Login
+
+09:05 AM
+
+Current Status
+
+Available
+
+Calls Completed
+
+76
+
+Follow-ups Done
+
+18
+
+Meetings Booked
+
+7
+
+Leads Converted
+
+4
+
+Working Hours
+
+6h 48m
+
+Break Time
+
+22 min
+Leaderboard
+Today's Ranking
+
+🥇 Rahul
+
+95 Calls
+
+6 Activations
+
+🥈 Priya
+
+90 Calls
+
+5 Activations
+
+🥉 Kavita
+
+76 Calls
+
+4 Activations
+
+4️⃣ Amit
+
+72 Calls
+
+3 Activations
+Upcoming Follow-ups
+10:30 AM
+
+Rahul Sharma
+
+Franchise Inquiry
+
+11:15 AM
+
+Anita Patil
+
+Business Account
+
+12:00 PM
+
+Vikas Joshi
+
+Gallery Deal
+
+2:30 PM
+
+Pooja Deshmukh
+
+Activation Payment
+AI Suggestions
+🤖 AI Recommendations
+
+Call Rahul Sharma first
+
+High conversion probability (92%)
+
+Today's Best Calling Time
+
+11 AM - 1 PM
+
+Priority Leads
+
+12
+
+Hot Leads
+
+6
+
+Inactive Leads
+
+18
+Quick Actions
++ Add Lead
+
++ Start Calling
+
++ Upload Call Recording
+
++ Schedule Follow-up
+
++ Add Customer Note
+
++ Send WhatsApp
+
++ Send Email
+
++ Convert Lead
+
++ Transfer Lead
+
++ Generate Daily Report
+Reports
+Daily Report
+Total Leads Assigned
+Calls Attempted
+Connected Calls
+Not Connected
+Busy Calls
+Wrong Numbers
+Interested Leads
+Follow-ups Scheduled
+Meetings Fixed
+Activations Completed
+Revenue Generated
+Call Duration
+Productivity %
+Target Completion %
+Attendance
+Login Time
+Logout Time
+Weekly Report
+Total Leads Received
+Calls Completed
+Follow-ups Completed
+Meetings Conducted
+Activations
+Revenue Generated
+Conversion Rate
+Average Call Duration
+Working Hours
+Weekly Rank
+Monthly Report
+Total Leads Assigned
+Total Calls Made
+Connected Calls
+Activations Completed
+Activation Target (40)
+Target Achievement %
+Revenue Generated
+Incentive Earned
+Salary Status
+Attendance %
+Working Hours
+Conversion Rate
+Customer Satisfaction Score
+Best Calling Day
+Missed Follow-ups
+Lost Leads
+Pending Leads
+Monthly Ranking
+Manager View (Telecalling Head)
+
+The Telecalling Head should additionally see:
+
+Live Active Telecallers
+Today's Calls by Employee
+Employee-wise Lead Distribution
+Employee-wise Activations
+Employee-wise Revenue
+Daily Target Achievement
+Monthly Target Achievement
+Average Call Time
+Employee Attendance
+Missed Follow-ups
+Pending Leads
+Team Leaderboard
+Incentive Eligibility
+Calls Requiring Quality Review
+Call Recording Audit
+Office-wise Telecalling Performance
+
+
+
+📞 Lead Communication Center
+
+Every lead should have a Communication Panel.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Lead Details
+
+Lead ID : LD-1025
+
+Customer Name : Rahul Sharma
+
+Mobile : +91 XXXXX XXXXX
+
+Email : rahul@email.com
+
+City : Pune
+
+Interested In : Franchise Gallery
+
+Lead Source : Website
+
+Status : Interested
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Quick Communication
+
+📞 Call
+
+💬 WhatsApp
+
+📧 Email
+
+📱 SMS
+
+🎥 Google Meet
+
+📅 Schedule Meeting
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💬 WhatsApp
+Send WhatsApp
+
+Template
+
+▼ Select Template
+
+Greeting
+
+Franchise Details
+
+Price Details
+
+Follow-up Reminder
+
+Payment Reminder
+
+Thank You
+
+Custom Message
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+Message Preview
+
+Dear Rahul Sharma,
+
+Greetings from ePay Digital India!
+
+Thank you for showing interest in our Franchise Gallery opportunity.
+
+Our executive will assist you throughout the onboarding process.
+
+Please let us know a convenient time for a discussion.
+
+Thank You.
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+Buttons
+
+Send
+
+Schedule
+
+Save Template
+📧 Email
+To
+
+Subject
+
+Email Template
+
+Greeting
+
+Welcome
+
+Franchise Proposal
+
+Price Quotation
+
+Meeting Invitation
+
+Offer
+
+Payment Reminder
+
+Custom
+
+━━━━━━━━━━━━━━━━━━━━━━
+
+Email Preview
+
+Attachments
+
+Buttons
+
+Send Email
+
+Schedule Email
+
+Save Draft
+📱 SMS
+Recipient
+
+Message
+
+Characters Used
+
+Remaining
+
+Buttons
+
+Send SMS
+
+Schedule SMS
+🎉 Greeting Templates
+
+The telecaller can choose a greeting before sending a message.
+
+Templates
+
+Good Morning
+
+Good Afternoon
+
+Good Evening
+
+Happy Birthday
+
+Happy Anniversary
+
+Welcome
+
+Festival Greetings
+
+Thank You
+
+Congratulations
+
+Custom Greeting
+🎊 Festival Greetings
+Happy Diwali
+
+Happy Holi
+
+Happy Independence Day
+
+Happy Republic Day
+
+Merry Christmas
+
+Happy New Year
+
+Eid Mubarak
+
+Ganesh Chaturthi Wishes
+
+Gudi Padwa Wishes
+
+Raksha Bandhan Wishes
+📄 Ready-to-Use Message Templates
+Welcome
+Hello {Customer Name},
+
+Greetings from ePay Digital India!
+
+Thank you for your interest. We are excited to help you with our services.
+
+Our team will contact you shortly.
+
+Thank you.
+Franchise Follow-up
+Hello {Customer Name},
+
+We hope you are doing well.
+
+We wanted to follow up regarding your Franchise Gallery enquiry.
+
+Please let us know your preferred time for a discussion.
+
+Thank you.
+Meeting Reminder
+Hello {Customer Name},
+
+This is a reminder about your scheduled meeting today.
+
+We look forward to speaking with you.
+
+Thank you.
+Payment Reminder
+Hello {Customer Name},
+
+This is a friendly reminder regarding your pending payment.
+
+Please contact us if you need any assistance.
+
+Thank you.
+🤖 AI Message Generator
+
+A useful feature:
+
+Generate AI Message
+
+Select Tone
+
+Professional
+
+Friendly
+
+Formal
+
+Sales
+
+Follow-up
+
+Reminder
+
+Congratulations
+
+Apology
+
+Buttons
+
+Generate
+
+Regenerate
+
+Copy
+
+Send
+📞 After Call Popup
+
+When the telecaller ends a call, automatically show:
+
+Call Outcome
+
+Interested
+
+Not Interested
+
+Call Back Later
+
+Meeting Fixed
+
+Payment Pending
+
+Wrong Number
+
+Busy
+
+No Answer
+
+Converted
+
+Lost Lead
+
+━━━━━━━━━━━━━━━━━━━━━━
+
+Add Notes
+
+Next Follow-up Date
+
+Next Follow-up Time
+
+Reminder
+
+Buttons
+
+Save
+
+Save & Schedule
+
+Convert Lead
+📊 Communication History
+
+Every communication should be saved automatically.
+
+Date
+
+Time
+
+Type
+
+(Call / WhatsApp / Email / SMS)
+
+Sent By
+
+Status
+
+Delivered
+
+Read
+
+Replied
+
+Duration
+
+Remarks
+
+Buttons
+
+View
+
+Resend
+🔔 Automated Follow-up Reminders
+
+The CRM should remind telecallers about pending communications.
+
+Examples:
+
+📞 Call Rahul Sharma in 15 minutes.
+💬 Send WhatsApp follow-up to Priya Patel.
+📧 Send franchise proposal to Amit Kumar.
+📱 SMS payment reminder to Neha Gupta.
+⭐ Lead Engagement Score
+
+Show customer engagement based on interactions.
+
+Lead Score
+
+★★★★★
+
+95%
+
+Last Communication
+
+Today
+
+Total Calls
+
+8
+
+WhatsApp Messages
+
+5
+
+Emails
+
+3
+
+SMS
+
+2
+
+Response Rate
+
+88%
+
+Hot Lead
+
+YES
+📎 Attachments
+
+Allow telecallers to send documents directly.
+
+Buttons
+
+Send Brochure
+
+Send Price List
+
+Send Franchise Proposal
+
+Send Company Profile
+
+Send Agreement
+
+Send Catalogue
+
+Upload Custom File
+🌐 Social Media Communication (Optional)
+
+If available, add:
+
+WhatsApp
+
+Email
+
+SMS
+
+Telegram
+
+Facebook Messenger
+
+Instagram DM
+
+LinkedIn Message
+Additional Smart Features
+
+You can make your CRM stand out by adding:
+
+One-click WhatsApp Web integration.
+Email templates with placeholders like {Customer Name}, {Telecaller Name}, {Office Name}.
+Automatic greeting based on time (Good Morning/Afternoon/Evening).
+Bulk messaging for multiple leads.
+Scheduled messages (send later).
+Communication history timeline showing every call, WhatsApp, email, and SMS in one place.
+AI-generated replies and follow-up messages.
+Read receipts (where supported).
+Automatic reminders if a lead hasn't been contacted within a defined period.
+One-click sharing of brochures, price lists, franchise proposals, PDFs, videos, and location maps.
+
+These features create a complete Omnichannel Communication Center, allowing telecallers to manage all customer interactions without leaving the CRM.

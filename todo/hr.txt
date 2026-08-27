@@ -1,0 +1,1508 @@
+👨‍💼 HR Portal (Enterprise Level)
+📋 Sidebar Menu
+🏠 Dashboard
+
+👥 Recruitment
+   • Job Openings
+   • Career Portal
+   • Campus Hiring
+   • Walk-in Drives
+   • Job Applications
+   • Candidate Pipeline
+   • Resume Database
+   • AI Resume Screening
+   • Interview Management
+   • Offer Letters
+
+👨‍💼 Employee Management
+   • Employee Directory
+   • Employee Profile
+   • Employee Documents
+   • Employee Timeline
+   • Employee Assets
+   • Employee Skills
+   • Promotion History
+   • Transfer History
+   • Department Transfer
+   • Employee Notes
+
+🕒 Attendance
+   • Daily Attendance
+   • Monthly Attendance
+   • Live Attendance
+   • Biometric Logs
+   • GPS Attendance
+   • Shift Management
+   • Late Entry
+   • Early Exit
+   • Overtime
+   • Break Time
+   • Work From Home
+   • Field Visit Attendance
+
+📅 Leave Management
+   • Leave Requests
+   • Leave Calendar
+   • Leave Balance
+   • Holiday Calendar
+   • Comp-Off
+   • Leave Approval
+
+💰 Payroll
+   • Salary Structure
+   • Payroll Processing
+   • Salary Slips
+   • Incentives
+   • Bonus
+   • Deductions
+   • PF
+   • ESIC
+   • TDS
+   • Loan & Advance
+   • Reimbursements
+
+🎯 Performance
+   • KPI
+   • KRA
+   • OKR
+   • Employee Scorecard
+   • Productivity
+   • Goal Tracking
+   • Performance Review
+   • Appraisal
+
+📋 Daily Work Monitoring
+   • Daily Work Log
+   • Assigned Tasks
+   • Completed Tasks
+   • Pending Tasks
+   • Work Hours
+   • Productivity Tracker
+
+🎓 Learning & Development
+   • Training
+   • Courses
+   • Certifications
+   • Assessment
+   • Skill Matrix
+
+📂 Documents
+   • Offer Letter
+   • Appointment Letter
+   • NDA
+   • HR Policies
+   • ID Card
+   • Experience Letter
+   • Relieving Letter
+
+❤️ Employee Engagement
+   • Birthday
+   • Anniversary
+   • Rewards
+   • Recognition
+   • Events
+   • Polls
+
+🚪 Exit Management
+   • Resignation
+   • Exit Interview
+   • Clearance
+   • Final Settlement
+
+📊 Reports
+
+🤖 AI HR Assistant
+
+📚 Knowledge Base
+
+🙋 Employee Self Service
+
+⚙ Settings
+📊 Dashboard Cards
+Total Employees
+
+Present Today
+
+Absent
+
+Late Employees
+
+On Leave
+
+Work From Home
+
+Open Positions
+
+Interviews Today
+
+New Joinings
+
+Resignations
+
+Pending Approvals
+
+Pending Salary
+
+Employee Satisfaction
+
+Average Attendance
+
+Average Productivity
+
+Overall Performance
+
+Training Completion
+
+Department Efficiency
+👨 Employee Profile
+
+Every employee should have
+
+Employee ID
+
+Photo
+
+Full Name
+
+Employee Code
+
+Department
+
+Designation
+
+Reporting Manager
+
+Joining Date
+
+Probation
+
+Confirmation Date
+
+Employment Type
+
+Office
+
+Branch
+
+Shift
+
+Blood Group
+
+Emergency Contact
+
+Personal Email
+
+Official Email
+
+Phone Number
+
+Current Address
+
+Permanent Address
+
+Bank Details
+
+PAN
+
+Aadhaar
+
+Passport
+
+Driving License
+
+Education
+
+Experience
+
+Skills
+
+Certifications
+
+Languages
+
+Documents
+
+Salary
+
+CTC
+
+PF
+
+ESIC
+
+Notice Period
+
+Status
+
+Attendance %
+
+Performance %
+
+Task Completion %
+
+Login Hours
+
+Projects
+
+Current Tasks
+🕒 Live Employee Status
+Employee
+
+Current Status
+
+Available
+
+Working
+
+Break
+
+Meeting
+
+Lunch
+
+Field Visit
+
+Work From Home
+
+Offline
+
+Idle
+
+Last Activity
+
+Current Task
+
+Current Project
+
+Working Time Today
+
+Idle Time Today
+
+Productivity Score
+📅 Daily Work Report
+
+Every employee
+
+Employee
+
+Department
+
+Today's Tasks
+
+Completed
+
+Pending
+
+Overdue
+
+Working Hours
+
+Break Time
+
+Idle Time
+
+Meeting Time
+
+Calls Made
+
+Leads Closed
+
+Sales
+
+Tickets Solved
+
+Reports Submitted
+
+Performance %
+
+Output Score
+
+Manager Remarks
+📈 Weekly Report
+Employee
+
+Working Days
+
+Attendance
+
+Leaves
+
+Late Entries
+
+Overtime
+
+Tasks Assigned
+
+Tasks Completed
+
+Pending Tasks
+
+Projects Worked
+
+Hours Worked
+
+Average Productivity
+
+Performance
+
+Department Ranking
+📅 Monthly Report
+Employee
+
+Attendance
+
+Late Entries
+
+Leaves
+
+Absent
+
+Half Day
+
+Overtime
+
+Working Hours
+
+Break Hours
+
+Assigned Tasks
+
+Completed Tasks
+
+Pending Tasks
+
+Rejected Tasks
+
+Projects
+
+Performance Score
+
+KPI
+
+Sales
+
+Leads
+
+Revenue
+
+Attendance %
+
+Salary
+
+Incentive
+
+Warnings
+
+Achievements
+📊 Department Report
+
+Every department
+
+Department
+
+Total Employees
+
+Present
+
+Absent
+
+Late
+
+Leave
+
+Productivity
+
+Working Hours
+
+Tasks Assigned
+
+Tasks Completed
+
+Pending
+
+Performance
+
+Revenue Generated
+
+Expenses
+
+Attendance %
+
+Efficiency %
+
+Employee Satisfaction
+📈 Productivity Dashboard
+Employee
+
+Login Time
+
+Logout Time
+
+Active Time
+
+Idle Time
+
+Break Time
+
+Meeting Time
+
+Work Hours
+
+Productive Hours
+
+Non Productive Hours
+
+Task Completion
+
+Output
+
+Performance
+
+Efficiency
+🎯 Task Monitoring
+Task ID
+
+Task Name
+
+Department
+
+Assigned By
+
+Assigned To
+
+Priority
+
+Start Date
+
+Due Date
+
+Status
+
+Estimated Time
+
+Actual Time
+
+Completion %
+
+Remarks
+
+Attachments
+📋 Manager View
+
+HR should see
+
+Department Wise Employees
+
+Office Wise Employees
+
+Branch Wise Employees
+
+Employee Availability
+
+Current Working Status
+
+Online Employees
+
+Offline Employees
+
+Employees On Leave
+
+Employees Working Overtime
+
+Employees On Break
+
+Employees Working From Home
+
+Employees On Field Visit
+📈 Employee Timeline
+Joining
+
+Promotion
+
+Salary Revision
+
+Transfer
+
+Training
+
+Awards
+
+Warnings
+
+Leave History
+
+Attendance
+
+Projects
+
+Performance
+
+Appraisal
+
+Exit
+🏆 Performance Score
+
+Automatically calculate
+
+Attendance
+
+20%
+
+Task Completion
+
+20%
+
+Output
+
+20%
+
+Quality
+
+15%
+
+Punctuality
+
+10%
+
+Behavior
+
+5%
+
+Training
+
+5%
+
+Manager Feedback
+
+5%
+
+Overall Score
+
+95%
+🤖 AI HR Assistant
+
+Can generate
+
+Offer Letter
+Appointment Letter
+Warning Letter
+Salary Increment Letter
+Promotion Letter
+Transfer Letter
+Experience Letter
+Relieving Letter
+Interview Questions
+Job Descriptions
+KPI Suggestions
+Training Plans
+Performance Feedback
+📊 Advanced Reports (100+ Reports)
+Employee Reports
+Employee Master Report
+Employee Directory Report
+Employee Joining Report
+Confirmation Report
+Probation Report
+Promotion Report
+Transfer Report
+Salary History Report
+Employee Profile Report
+Employee Document Report
+Employee Skills Report
+Employee Certification Report
+Employee Asset Allocation Report
+Employee Exit Report
+Employee Rehire Report
+Attendance Reports
+Daily Attendance Report
+Weekly Attendance Report
+Monthly Attendance Report
+Custom Date Attendance Report
+Office-wise Attendance
+Department-wise Attendance
+Employee-wise Attendance
+Shift-wise Attendance
+Late Entry Report
+Early Exit Report
+Overtime Report
+Break Time Report
+GPS Attendance Report
+Biometric Report
+Work From Home Report
+Field Visit Report
+Missed Punch Report
+Productivity Reports
+Daily Productivity Report
+Weekly Productivity Report
+Monthly Productivity Report
+Employee Productivity Report
+Department Productivity Report
+Office Productivity Report
+Login Hours Report
+Logout Report
+Active Hours Report
+Idle Time Report
+Screen Time Report (if desktop agent is used)
+Application Usage Report
+Website Usage Report
+Focus Time Report
+Meeting Time Report
+Task Reports
+Assigned Tasks Report
+Completed Tasks Report
+Pending Tasks Report
+Overdue Tasks Report
+Task Completion Time Report
+Task Priority Report
+Department-wise Task Report
+Employee-wise Task Report
+Project-wise Task Report
+Manager-wise Task Report
+Payroll Reports
+Salary Register
+Payroll Summary
+Payroll Processing Report
+Incentive Report
+Bonus Report
+Deduction Report
+PF Report
+ESIC Report
+TDS Report
+Loan Report
+Advance Salary Report
+Reimbursement Report
+Bank Transfer Report
+Payslip Report
+Recruitment Reports
+Job Opening Report
+Candidate Report
+Resume Database Report
+Interview Report
+Interview Feedback Report
+Offer Letter Report
+Candidate Conversion Report
+Hiring Source Report
+Recruitment Funnel Report
+Time to Hire Report
+Leave Reports
+Leave Balance Report
+Leave Approval Report
+Leave Calendar Report
+Leave Utilization Report
+Holiday Report
+Comp-Off Report
+Performance Reports
+KPI Achievement Report
+KRA Report
+OKR Report
+Performance Review Report
+Appraisal Report
+Employee Ranking Report
+Top Performer Report
+Underperformer Report
+Goal Achievement Report
+Training Effectiveness Report
+📈 Executive Dashboard (CEO/HR Head)
+
+The HR Head should be able to generate reports using filters such as:
+
+Today
+Yesterday
+This Week
+Last Week
+This Month
+Last Month
+Quarterly
+Yearly
+Custom Date (From – To)
+Office
+Branch
+Department
+Team
+Manager
+Employee
+
+For every report, provide:
+
+Total Employees
+Attendance Percentage
+Active Working Hours
+Productive Hours
+Idle Time
+Break Time
+Tasks Assigned
+Tasks Completed
+Task Completion %
+Average Resolution Time (for support roles)
+Calls Made (Telecaller)
+Leads Generated
+Sales Closed
+Revenue Generated
+Campaigns Managed (Digital Marketing)
+Bugs Fixed (Developers)
+Tickets Resolved (Technical Support)
+Customer Satisfaction Score
+Performance Score
+KPI Achievement %
+Overall Efficiency %
+Ranking within Department
+Manager Feedback
+AI Performance Summary
+Download options (PDF, Excel, CSV)
+🚀 Enterprise-Level HR Features
+
+To make your HR module world-class, add:
+
+Organization Chart (visual hierarchy from CEO to interns).
+Succession Planning for leadership roles.
+Competency Matrix to compare employee skills against role requirements.
+Career Path Planner showing growth opportunities.
+360° Performance Reviews with feedback from managers, peers, and subordinates.
+Employee Wellness Dashboard for health programs and engagement.
+HR Compliance Center tracking statutory requirements, policy acknowledgments, and document expiries.
+Asset Lifecycle Management integrated with IT for laptop, phone, and ID card allocation/return.
+Workforce Planning & Forecasting to predict hiring needs based on business growth.
+AI Workforce Insights highlighting absenteeism trends, burnout risk, attrition probability, high-potential employees, and department capacity planning.
+
+This design provides HR, department heads, and leadership with a complete view of every employee's lifecycle, productivity, and organizational performance while supporting detailed operational and strategic reporting.
+
+
+
+👨‍💼 HR Command Center
+
+Instead of only showing cards, the dashboard should display live information.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Employees Online          124
+
+Working From Home          18
+
+Field Employees            32
+
+On Leave                   12
+
+Late Employees             9
+
+On Break                   14
+
+In Meeting                 6
+
+Pending Approvals          21
+
+Today's Interviews         8
+
+Offer Letters Pending      5
+
+Pending Salary             ₹18,20,000
+
+Current Productivity       91%
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Live Employee Monitoring
+
+HR should know exactly what everyone is doing.
+
+Employee
+
+Current Status
+
+Current Project
+
+Current Task
+
+Login Time
+
+Working Time
+
+Break Time
+
+Idle Time
+
+Productivity
+
+Manager
+
+Office
+
+System Status
+
+Internet Status
+
+Status
+
+🟢 Working
+
+🟡 Break
+
+🔵 Meeting
+
+🟣 Training
+
+🟠 Field Visit
+
+⚫ Offline
+
+🔴 Leave
+
+🟢 Remote Working
+Workforce Heat Map
+Pune Office
+
+IT
+
+███████████
+
+95%
+
+Marketing
+
+█████████
+
+88%
+
+Finance
+
+████████████
+
+98%
+
+HR
+
+██████████
+
+90%
+
+Support
+
+████████
+
+80%
+
+Instantly shows department productivity.
+
+Organization Chart
+
+Interactive tree.
+
+CEO
+
+↓
+
+Director
+
+↓
+
+General Manager
+
+↓
+
+HR Head
+
+↓
+
+Department Head
+
+↓
+
+Team Lead
+
+↓
+
+Employee
+
+↓
+
+Intern
+
+Click any employee
+
+Shows
+
+reporting hierarchy
+promotion history
+performance
+attendance
+salary
+assets
+projects
+Employee 360°
+
+One page contains everything.
+
+Personal Details
+
+Attendance
+
+Leave
+
+Payroll
+
+Projects
+
+Tasks
+
+Appraisal
+
+Training
+
+Certificates
+
+Assets
+
+Performance
+
+Warnings
+
+Rewards
+
+Documents
+
+Timeline
+
+Notes
+
+Activity Log
+
+Login History
+
+Promotion History
+
+Transfer History
+Employee Timeline
+
+Every event.
+
+Joined Company
+
+↓
+
+Completed Training
+
+↓
+
+Promotion
+
+↓
+
+Salary Increment
+
+↓
+
+Transferred Department
+
+↓
+
+Award Received
+
+↓
+
+Late Warning
+
+↓
+
+Project Assigned
+
+↓
+
+Completed Project
+
+↓
+
+Appraisal
+
+↓
+
+Exit
+Workforce Analytics
+Average Age
+
+Gender Ratio
+
+Experience Level
+
+Skill Distribution
+
+Department Strength
+
+Hiring Trend
+
+Resignation Trend
+
+Promotion Trend
+
+Salary Growth
+
+Average Productivity
+
+Average Attendance
+Employee Score
+
+Automatically calculate
+
+Attendance
+
+15%
+
+Task Completion
+
+20%
+
+Project Completion
+
+20%
+
+Quality
+
+15%
+
+Client Rating
+
+10%
+
+Punctuality
+
+5%
+
+Learning
+
+5%
+
+Manager Rating
+
+10%
+
+Total Score
+
+94%
+Work Tracking
+
+Every employee.
+
+Today's Assigned Tasks
+
+Today's Completed Tasks
+
+Current Task
+
+Project
+
+Time Spent
+
+Estimated Time
+
+Actual Time
+
+Delay
+
+Manager Remarks
+
+Priority
+
+Attachments
+Daily Activity
+09:00
+
+Login
+
+09:15
+
+Task Started
+
+11:20
+
+Meeting
+
+12:15
+
+Task Completed
+
+12:30
+
+Lunch
+
+01:20
+
+Second Task
+
+03:40
+
+Phone Call
+
+05:20
+
+Task Finished
+
+06:05
+
+Logout
+Productivity Engine
+Active Working Time
+
+Idle Time
+
+Break Time
+
+Mouse Activity
+
+Keyboard Activity
+
+Meetings
+
+Calls
+
+Tickets
+
+Tasks
+
+Output
+
+Productivity
+
+(Optional if desktop monitoring software is installed.)
+
+AI Employee Rating
+
+AI automatically gives
+
+⭐⭐⭐⭐⭐
+
+Top Performer
+
+Reasons
+
+95% attendance
+
+All tasks completed
+
+High quality work
+
+Positive feedback
+
+Low idle time
+Skill Matrix
+Employee
+
+React
+
+Node
+
+Python
+
+SQL
+
+AWS
+
+Communication
+
+Leadership
+
+Problem Solving
+
+Presentation
+
+Management
+
+Shows skills graphically.
+
+Succession Planning
+
+Shows
+
+Current HR Manager
+
+↓
+
+Possible Successor
+
+↓
+
+Training Required
+
+↓
+
+Readiness
+
+85%
+Talent Pool
+
+Employees
+
+Ready for Promotion
+
+Needs Training
+
+Leadership Potential
+
+High Performer
+
+Future Manager
+
+Critical Employee
+
+Retention Risk
+Attrition Prediction
+
+AI predicts.
+
+Employee
+
+Probability of Leaving
+
+Reasons
+
+Salary
+
+Distance
+
+Low Performance
+
+Low Engagement
+
+No Promotion
+
+Market Demand
+
+Overall Risk
+
+82%
+Employee Happiness
+Monthly Survey
+
+Job Satisfaction
+
+Manager Rating
+
+Team Rating
+
+Salary Satisfaction
+
+Office Environment
+
+Growth Opportunities
+
+Overall Happiness
+
+4.7 / 5
+Employee Recognition
+Employee Of Month
+
+Best Team
+
+Innovation Award
+
+Perfect Attendance
+
+Fastest Learner
+
+Highest Sales
+
+Best Support Engineer
+
+Top Telecaller
+
+Best Developer
+Training Center
+Assigned Courses
+
+Completed
+
+Pending
+
+Certificates
+
+Expiry
+
+Skill Tests
+
+Quiz
+
+Practical
+
+Assessment
+Compliance Center
+
+Track
+
+Offer Letter
+
+NDA
+
+PF
+
+ESIC
+
+PAN
+
+Aadhaar
+
+Police Verification
+
+Medical
+
+Background Verification
+
+Experience Verification
+Employee Asset Management
+Laptop
+
+Monitor
+
+Keyboard
+
+Mouse
+
+Mobile
+
+SIM
+
+ID Card
+
+Access Card
+
+Biometric
+
+Software License
+
+Returned
+
+Pending
+Visitor Management
+Visitor
+
+Meeting With
+
+Purpose
+
+Entry Time
+
+Exit Time
+
+Photo
+
+ID Proof
+
+Approval
+
+Gate Pass
+Travel Management
+Travel Request
+
+Approval
+
+Expense
+
+Tickets
+
+Hotel
+
+Advance
+
+Settlement
+
+Travel History
+Reimbursement
+Food
+
+Fuel
+
+Hotel
+
+Cab
+
+Office Purchase
+
+Medical
+
+Internet
+
+Mobile
+
+Approval
+
+Payment
+Advanced Reports (CEO Level)
+HR Executive Reports
+Employee Productivity Index
+Department Productivity Matrix
+Employee Utilization Report
+Capacity Planning Report
+Resource Allocation Report
+Bench Strength Report
+Hiring Forecast Report
+Salary Cost Analysis
+Payroll Variance Report
+Attrition Dashboard
+Employee Retention Analysis
+Training Effectiveness Report
+Promotion Readiness Report
+Succession Planning Report
+Employee Engagement Index
+Performance Distribution Curve
+Attendance Compliance Report
+Overtime Cost Analysis
+Leave Liability Report
+Department Efficiency Report
+Employee Profitability Report
+Employee Cost vs Revenue Report
+Workforce Diversity Report
+Headcount Trend Report
+Office-wise Workforce Report
+Branch-wise Workforce Report
+Team-wise Productivity Report
+Employee Utilization Heatmap
+Task Completion Analytics
+Work Hour Distribution
+Login vs Productive Time Analysis
+Employee Ranking Report
+Manager Performance Report
+Team Performance Report
+High Performer Report
+Low Performer Report
+Performance Improvement Plan Report
+Skill Gap Analysis
+Certification Compliance Report
+Asset Allocation Report
+Exit Analysis Report
+Recruitment Funnel Report
+Candidate Source Analysis
+Interview Conversion Report
+Offer Acceptance Ratio
+Cost Per Hire Report
+Time To Hire Report
+HR SLA Report
+Compliance Audit Report
+AI Insights Report
+🤖 AI HR Copilot (Enterprise)
+
+This becomes your biggest competitive advantage.
+
+The HR AI Assistant should answer questions like:
+
+"Who is the best React developer in Pune?"
+"Show employees with attendance below 80%."
+"Who has been idle for more than 3 hours today?"
+"Which department has the lowest productivity this month?"
+"Generate appraisal letters for all employees scoring above 90%."
+"Predict next month's hiring requirement."
+"List employees eligible for promotion."
+"Which employees haven't completed mandatory training?"
+"Show overtime cost by department."
+"Generate a complete HR MIS report for the last quarter."
+⭐ One Feature I Strongly Recommend
+
+Since your CRM already includes HR, Telecalling, Finance, Technical Support, Gallery, Digital Marketing, Developers, Franchise, Inventory, and Admin, add a Company Productivity Command Center.
+
+This will be a single dashboard for the CEO, Directors, and HR Head displaying:
+
+Live employee count by status (Working, Break, Meeting, Offline).
+Office-wise and department-wise productivity.
+Daily, weekly, monthly, and custom date KPIs.
+Attendance, working hours, idle time, and task completion.
+Revenue generated per employee and per department.
+Active projects and project health.
+AI-generated alerts for delays, burnout risks, underperforming teams, and resource shortages.
+Leaderboards for top performers across all departments.
+Executive MIS reports with drill-down from company → office → department → team → employee.
+
+This type of command center transforms the HR module from a traditional HR system into an enterprise-grade Workforce Intelligence Platform, giving leadership real-time visibility into the organization's operational health.

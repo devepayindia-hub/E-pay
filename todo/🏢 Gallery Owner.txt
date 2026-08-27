@@ -1,0 +1,1110 @@
+🏢 Gallery Owner Management
+Business Rules
+1. One Gallery = Multiple Owners ✅
+
+Example
+
+Gallery ID : GAL-1001
+
+Gallery Name : Pune FC Road Gallery
+
+Total Owners : 3
+Owner	Capital Invested	Ownership %	Profit Sharing %	Status
+Rahul Patil	₹10,00,000	50%	45%	Active
+Amit Shah	₹6,00,000	30%	35%	Active
+Priya Joshi	₹4,00,000	20%	20%	Active
+
+Notice:
+
+Ownership % and Profit % are different.
+Everything should be editable.
+Total Profit Ratio should always equal 100%.
+Owner Details
+
+Each owner should have
+
+Owner ID
+
+Owner Name
+
+Photo
+
+Mobile Number
+
+Email
+
+PAN
+
+Aadhaar
+
+Address
+
+Bank Details
+
+Nominee
+
+KYC Status
+
+Status
+
+Buttons
+
+Add Owner
+
+Edit Owner
+
+Remove Owner
+
+View Profile
+
+Transfer Ownership
+
+Upload Documents
+Investment Details
+Capital Invested
+
+Investment Date
+
+Investment Type
+
+Cash
+
+Bank Transfer
+
+Cheque
+
+UPI
+
+Loan
+
+Current Capital
+
+Additional Investment
+
+Withdrawn Capital
+
+Net Capital
+Ownership Details
+Ownership %
+
+Profit Sharing %
+
+Loss Sharing %
+
+Voting Rights
+
+Dividend %
+
+Management Role
+
+Active / Inactive
+
+Everything editable.
+
+Gallery Financial Distribution
+
+Monthly Profit
+
+Total Gallery Profit
+
+₹12,50,000
+
+Distribution
+
+Rahul
+
+45%
+
+₹5,62,500
+
+--------------------------------
+
+Amit
+
+35%
+
+₹4,37,500
+
+--------------------------------
+
+Priya
+
+20%
+
+₹2,50,000
+Edit Profit Sharing
+
+Finance/Admin should be able to change
+
+Owner
+
+Current %
+
+New %
+
+Effective From
+
+Reason
+
+Approved By
+
+Remarks
+
+Every change should be saved in history.
+
+Ownership History
+History ID
+
+Date
+
+Owner
+
+Previous %
+
+New %
+
+Reason
+
+Updated By
+
+Remarks
+
+Nothing should be permanently deleted.
+
+Multiple Franchise Support ⭐
+
+This is one of the most important features.
+
+A single owner can own many galleries.
+
+Example
+
+Owner
+
+Rahul Patil
+
+Total Galleries
+
+5
+
+Sidebar
+
+My Galleries
+
+🏢 Pune FC Road
+
+🏢 Mumbai Andheri
+
+🏢 Nashik CBS
+
+🏢 Nagpur Central
+
+🏢 Hyderabad Banjara Hills
+
+OR
+
+Dropdown
+
+Select Gallery
+
+▼ Pune FC Road
+
+Mumbai Andheri
+
+Nashik CBS
+
+Nagpur Central
+
+Hyderabad
+
+When owner changes gallery
+
+Entire dashboard changes automatically.
+
+Sales
+
+Employees
+
+Profit
+
+Inventory
+
+Customers
+
+Wallet
+
+Ledger
+
+Expenses
+
+Gallery Assets
+
+Reports
+
+Everything should become gallery-specific.
+
+Owner Dashboard
+Total Galleries
+
+5
+
+Total Investment
+
+₹1.85 Crore
+
+Monthly Profit
+
+₹12.8 Lakhs
+
+Total Employees
+
+58
+
+Today's Sales
+
+₹4.8 Lakhs
+
+Inventory Value
+
+₹2.6 Crore
+Gallery Switcher
+
+Top Navigation
+
+Current Gallery
+
+▼ Pune FC Road
+
+Switch Gallery
+
+Search
+
+Search Gallery
+
+Nagpur
+
+Nashik
+
+Mumbai
+
+Pune
+
+Delhi
+Owner-wise Reports
+Owner Investment Report
+
+Capital Report
+
+Profit Distribution Report
+
+Dividend Report
+
+Gallery-wise Income
+
+Gallery-wise Expenses
+
+Gallery Performance
+
+Owner Ledger
+
+Profit Sharing History
+
+Tax Report
+
+Annual Profit Report
+Ownership Transfer
+Transfer From
+
+Rahul Patil
+
+Transfer To
+
+Sachin Patil
+
+Capital
+
+₹3,00,000
+
+Ownership %
+
+15%
+
+Profit %
+
+12%
+
+Effective Date
+
+Reason
+
+Documents
+Gallery-Wise Permissions
+
+Not every owner needs full access.
+
+Permission Levels:
+
+Owner
+
+Co-Owner
+
+Investor
+
+Silent Partner
+
+Gallery Manager
+
+Finance Access
+
+View Only
+
+Examples:
+
+Owner: Full access to everything.
+Co-Owner: Operational and financial access.
+Investor: Can view investments, profit sharing, and reports but cannot manage daily operations.
+Gallery Manager: Can manage employees, sales, inventory, and customers but cannot change ownership or financial ratios.
+View Only: Read-only access.
+Validation Rules
+
+The CRM should automatically validate:
+
+Total ownership percentage = 100%
+Total profit sharing percentage = 100%
+Total loss sharing percentage = 100% (if applicable)
+Prevent duplicate owner records for the same gallery unless intentionally added with a defined share.
+Maintain a complete audit trail for every ownership, investment, or ratio change.
+Allow effective dates for future ownership changes.
+Recommended Database Structure
+Gallery
+Gallery ID
+Gallery Name
+Gallery Code
+Location
+Status
+Owner
+Owner ID
+Name
+Contact Details
+KYC Information
+Gallery Owner Mapping (Many-to-Many)
+
+This is the key table.
+
+Gallery ID
+
+Owner ID
+
+Capital Invested
+
+Ownership %
+
+Profit Share %
+
+Loss Share %
+
+Role
+
+Investment Date
+
+Status
+
+Effective From
+
+Effective To
+
+This mapping allows:
+
+✅ One owner to own multiple galleries.
+✅ One gallery to have multiple owners.
+✅ Different capital contributions for each gallery.
+✅ Different profit-sharing percentages for each gallery.
+✅ Historical tracking of ownership changes without losing previous records.
+
+This many-to-many ownership model is scalable and is the recommended design for an enterprise-grade Franchise CRM/ERP. It supports future expansion to hundreds or thousands of galleries while maintaining accurate financial records, profit distribution, and owner-level access control.
+
+
+
+
+🏢 Gallery Owner Dashboard
+Dashboard Cards
+Total Galleries
+
+12
+
+----------------------------
+
+Owned Galleries
+
+8
+
+----------------------------
+
+Co-Owned Galleries
+
+4
+
+----------------------------
+
+Total Investment
+
+₹3.85 Crore
+
+----------------------------
+
+Current Portfolio Value
+
+₹5.42 Crore
+
+----------------------------
+
+Today's Sales
+
+₹18,40,500
+
+----------------------------
+
+Monthly Revenue
+
+₹2.8 Crore
+
+----------------------------
+
+Monthly Profit
+
+₹48,75,000
+
+----------------------------
+
+Pending Profit Distribution
+
+₹12,40,000
+
+----------------------------
+
+Employees Across Galleries
+
+142
+
+----------------------------
+
+Customers Served
+
+18,520
+
+----------------------------
+
+Inventory Value
+
+₹1.75 Crore
+
+----------------------------
+
+Gallery Performance
+
+94%
+My Galleries
+🏢 Pune FC Road
+
+Status : Running
+
+Investment
+
+₹45,00,000
+
+Profit Ratio
+
+40%
+
+Monthly Sales
+
+₹42,00,000
+
+Monthly Profit
+
+₹8,50,000
+
+--------------------------------
+
+🏢 Mumbai Andheri
+
+--------------------------------
+
+🏢 Nashik
+
+--------------------------------
+
+🏢 Nagpur
+
+--------------------------------
+
+🏢 Hyderabad
+
+Buttons
+
+Open Dashboard
+
+View Reports
+
+Financials
+
+Employees
+
+Inventory
+
+Customers
+
+Switch Gallery
+Multi Owner Management
+Gallery
+
+Pune FC Road
+
+--------------------------------
+
+Owner 1
+
+Rahul Patil
+
+Capital
+
+₹40,00,000
+
+Ownership
+
+40%
+
+Profit Ratio
+
+35%
+
+--------------------------------
+
+Owner 2
+
+Amit Shah
+
+Capital
+
+₹30,00,000
+
+Ownership
+
+30%
+
+Profit Ratio
+
+32%
+
+--------------------------------
+
+Owner 3
+
+Pooja Patil
+
+Capital
+
+₹20,00,000
+
+Ownership
+
+20%
+
+Profit Ratio
+
+23%
+
+--------------------------------
+
+Owner 4
+
+Company Share
+
+Capital
+
+₹10,00,000
+
+Ownership
+
+10%
+
+Profit Ratio
+
+10%
+
+Buttons
+
+Add Owner
+
+Transfer Share
+
+Edit Ratio
+
+Investment History
+
+Ownership History
+
+Digital Agreement
+Investment Management
+
+Fields
+
+Investment ID
+
+Owner
+
+Gallery
+
+Investment Type
+
+Initial Investment
+
+Additional Investment
+
+Withdrawal
+
+Loan
+
+Equity
+
+Date
+
+Amount
+
+Mode
+
+Bank
+
+UPI
+
+Cheque
+
+Reference Number
+
+Approved By
+
+Remarks
+
+Status
+Profit Sharing Engine
+Gallery Profit
+
+₹25,00,000
+
+↓
+
+Automatically Calculate
+
+↓
+
+Owner Share
+
+↓
+
+Transfer to Wallet
+
+↓
+
+Generate Ledger
+
+↓
+
+Generate TDS
+
+↓
+
+Generate Reports
+
+Buttons
+
+Calculate Profit
+
+Approve
+
+Distribute
+
+Reverse Entry
+
+Download Statement
+Capital Management
+Current Capital
+
+Additional Capital
+
+Capital Withdrawal
+
+Capital Appreciation
+
+Capital Depreciation
+
+Current Share Value
+
+Net Worth
+
+ROI
+
+Investment Growth %
+
+Capital Lock-in
+
+Capital Released
+Gallery Comparison
+Gallery
+
+Monthly Sales
+
+Monthly Profit
+
+Employees
+
+Expenses
+
+ROI
+
+Customer Rating
+
+Growth
+
+Inventory
+
+Pending Payments
+
+Collections
+
+Performance Score
+
+Compare
+
+Pune
+
+Mumbai
+
+Nashik
+
+Nagpur
+
+Delhi
+
+Hyderabad
+Owner Wallet
+Opening Balance
+
+Profit Received
+
+Commission
+
+Dividend
+
+Bonus
+
+Capital Returned
+
+Withdrawals
+
+Pending Transfers
+
+Closing Balance
+Owner Ledger
+Ledger ID
+
+Date
+
+Gallery
+
+Transaction Type
+
+Debit
+
+Credit
+
+Balance
+
+Narration
+
+Reference
+
+Created By
+
+Approved By
+Gallery Assets
+Furniture
+
+Computers
+
+Printers
+
+Biometric
+
+Air Conditioner
+
+CCTV
+
+Sign Boards
+
+Office Equipment
+
+POS Machines
+
+Stock
+
+Vehicles
+
+Other Assets
+Employee Overview
+Total Employees
+
+Department Wise
+
+Salary
+
+Attendance
+
+Leaves
+
+Performance
+
+Incentives
+
+Resignations
+
+New Joinings
+Customer Overview
+New Customers
+
+Returning Customers
+
+Membership
+
+Subscriptions
+
+Complaints
+
+Feedback
+
+Ratings
+
+Loyalty Points
+Inventory Dashboard
+Available Stock
+
+Low Stock
+
+Out Of Stock
+
+Damaged Stock
+
+Returned Stock
+
+Warehouse Stock
+
+Stock Value
+
+Stock Turnover
+AI Business Insights
+This month's sales increased by 18%.
+
+Mumbai gallery is generating the highest ROI.
+
+Nashik gallery has low inventory.
+
+Pune gallery expenses increased by 12%.
+
+Nagpur gallery needs additional staff.
+
+Profit margin decreased by 3%.
+
+Inventory worth ₹2 lakh should be reordered.
+Smart Notifications
+Profit Ready
+
+Dividend Approved
+
+Investment Added
+
+Gallery Performance Dropped
+
+Sales Increased
+
+Low Inventory
+
+Owner Ratio Changed
+
+Agreement Expiring
+
+GST Due
+
+License Renewal
+
+Employee Salary Pending
+
+Rent Due
+Digital Agreements
+Partnership Agreement
+
+Profit Sharing Agreement
+
+Investment Agreement
+
+Exit Agreement
+
+Ownership Transfer
+
+Digital Signature
+
+Witness Details
+
+Version History
+Analytics
+Monthly ROI
+
+Yearly ROI
+
+Investment Growth
+
+Profit Growth
+
+Sales Growth
+
+Customer Growth
+
+Expense Growth
+
+Employee Growth
+
+Gallery Expansion
+
+Market Share
+Reports (Enterprise Level)
+Owner Reports
+Owner Master Report
+Owner Profile Report
+Owner KYC Report
+Owner Investment Report
+Owner Capital Contribution Report
+Owner Profit Sharing Report
+Owner Loss Sharing Report
+Owner Dividend Report
+Owner Wallet Statement
+Owner Ledger Report
+Owner Transaction History
+Owner Tax Report
+Owner TDS Report
+Owner ROI Report
+Owner Net Worth Report
+Owner Performance Report
+Owner Login Activity Report
+Owner Audit Trail Report
+Owner Access Permission Report
+Gallery Reports
+Gallery Master Report
+Gallery Registration Report
+Gallery Performance Report
+Gallery Revenue Report
+Gallery Expense Report
+Gallery Profit & Loss Report
+Gallery Cash Flow Report
+Gallery Balance Sheet
+Gallery Sales Report
+Gallery Inventory Report
+Gallery Asset Report
+Gallery Employee Report
+Gallery Attendance Report
+Gallery Salary Report
+Gallery Customer Report
+Gallery Membership Report
+Gallery Subscription Report
+Gallery Complaint Report
+Gallery Feedback Report
+Gallery Compliance Report
+Gallery License & Renewal Report
+Financial Reports
+Daily Cash Book
+Day Book
+Journal Book
+General Ledger
+Trial Balance
+Profit & Loss Statement
+Balance Sheet
+Cash Flow Statement
+Bank Book
+Petty Cash Report
+Investment Register
+Capital Register
+Profit Distribution Register
+Dividend Register
+Owner Settlement Report
+Outstanding Payment Report
+GST Summary
+TDS Summary
+Income Tax Summary
+Monthly Financial Summary
+Franchise Reports
+Franchise Onboarding Report
+Franchise Renewal Report
+Franchise Agreement Report
+Franchise Fee Collection Report
+Royalty Collection Report
+Gallery Expansion Report
+Franchise Activation Report
+Franchise Closure Report
+Multi-Owner Shareholding Report
+Share Transfer Report
+Partnership Change Report
+Franchise Profitability Report
+Audit Reports
+Ownership Change History
+Profit Ratio Change History
+Investment Change History
+Capital Withdrawal History
+User Activity Log
+Login History
+Approval History
+Financial Audit Trail
+Document Audit Trail
+Permission Change History
+Deleted Records Log
+System Activity Log
+Advanced Enterprise Features
+📈 Portfolio Dashboard
+
+Shows the owner's combined investment, profits, ROI, liabilities, and performance across all galleries.
+
+💹 Dynamic Profit Sharing
+
+Profit-sharing percentages can be changed with an effective date. Historical distributions remain unchanged, while future calculations use the updated ratios.
+
+🔄 Share Transfer & Buyout
+
+Supports selling ownership stakes between partners or bringing in new investors, with automatic ledger entries and ownership history.
+
+📊 Multi-Gallery Consolidated Reporting
+
+Owners can view consolidated financials across all galleries or filter reports by a single gallery, region, city, or state.
+
+💼 Investor Dashboard
+
+Provides investors with a read-only view of investments, returns, profit distributions, agreements, and portfolio growth without exposing operational controls.
+
+🔔 Automated Alerts
+Profit ready for distribution.
+Gallery underperforming.
+Capital ratio mismatch.
+Partnership agreement expiring.
+Royalty payment overdue.
+GST or tax due.
+Inventory shortages.
+Employee salary pending.
+📑 Document Vault
+
+A secure repository for:
+
+Partnership deeds.
+Share certificates.
+Investment proofs.
+Bank statements.
+GST certificates.
+Lease agreements.
+Insurance documents.
+KYC records.
+Digital signatures.
+Board resolutions.

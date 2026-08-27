@@ -1,0 +1,236 @@
+/* ============================================================
+   ePay CRM - Shared Dynamic Sidebar Styles
+   Works with crm-engine.js on all portal pages.
+   ============================================================ */
+
+/* --- Sidebar root --- */
+.crm-sidebar {
+    width: 260px;
+    height: 100vh;
+    background: #0f172a;
+    color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    overflow-y: auto;
+    transition: transform 0.3s ease;
+    font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+.crm-sidebar::-webkit-scrollbar { width: 4px; }
+.crm-sidebar::-webkit-scrollbar-track { background: transparent; }
+.crm-sidebar::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+
+/* --- Brand --- */
+.crm-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    flex-shrink: 0;
+}
+.crm-brand-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #10b981, #059669);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+.crm-brand-text { min-width: 0; }
+.crm-brand-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: -0.3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.crm-brand-sub {
+    font-size: 11px;
+    color: #94a3b8;
+    margin-top: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* --- Nav --- */
+.crm-nav {
+    flex: 1;
+    padding: 12px 8px;
+    overflow-y: auto;
+}
+.crm-nav::-webkit-scrollbar { width: 4px; }
+.crm-nav::-webkit-scrollbar-thumb { background: #334155; border-radius: 4px; }
+.crm-nav::-webkit-scrollbar-track { background: transparent; }
+
+.crm-nav-section {
+    padding: 14px 12px 4px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #64748b;
+    font-weight: 700;
+}
+
+.crm-nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 9px 12px;
+    margin: 2px 4px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 13.5px;
+    font-weight: 500;
+    position: relative;
+    user-select: none;
+}
+.crm-nav-item:hover {
+    background: rgba(255, 255, 255, 0.06);
+    color: #fff;
+}
+.crm-nav-item.active {
+    background: rgba(16,185,129, 0.25);
+    color: #fff;
+}
+.crm-nav-item.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 18%;
+    height: 64%;
+    width: 3px;
+    background: #34d399;
+    border-radius: 0 4px 4px 0;
+}
+.crm-nav-item i {
+    width: 20px;
+    text-align: center;
+    font-size: 15px;
+    flex-shrink: 0;
+}
+.crm-nav-label {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.crm-chevron {
+    font-size: 10px;
+    color: #64748b;
+    flex-shrink: 0;
+}
+.crm-badge {
+    background: #ef4444;
+    color: #fff;
+    font-size: 10px;
+    padding: 2px 8px;
+    border-radius: 20px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+.crm-badge.crm-badge-green {
+    background: #22c55e;
+}
+
+/* --- Sidebar footer --- */
+.crm-sidebar-footer {
+    margin-top: auto;
+    padding: 14px 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    background: #0f172a;
+}
+.crm-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #10b981;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    flex-shrink: 0;
+}
+.crm-user-info {
+    flex: 1;
+    min-width: 0;
+}
+.crm-user-name {
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.crm-user-role {
+    font-size: 11px;
+    color: #64748b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.crm-logout {
+    background: none;
+    border: none;
+    color: #94a3b8;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 4px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+.crm-logout:hover {
+    color: #ef4444;
+}
+
+/* --- Mobile responsive --- */
+@media (max-width: 768px) {
+    .crm-sidebar {
+        transform: translateX(-100%);
+        box-shadow: none;
+    }
+    .crm-sidebar.open {
+        transform: translateX(0);
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+    }
+}
+
+/* --- Hamburger button overlay for pages that include mobile toggle --- */
+.crm-hamburger {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: #334155;
+    cursor: pointer;
+    padding: 6px;
+}
+.crm-hamburger.show-mobile {
+    display: block;
+}
+@media (max-width: 768px) {
+    .crm-hamburger.show-mobile {
+        display: block;
+    }
+}

@@ -1,0 +1,1857 @@
+For your CRM, **Admin** should be the **second-highest authority after Super Admin/CEO**. Admin should manage the complete company operations but should not be able to change system-level settings, source code, licensing, or delete the company.
+
+Think of this role as a combination of **COO + Operations Manager + System Administrator**.
+
+---
+
+# 🛡️ Admin Portal (Enterprise Level)
+
+## Dashboard Header
+
+```text
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏢 ePay Digital India CRM
+
+🔍 Search Employees, Members, Galleries, Leads, Assets, Tickets, Reports...
+
+📍 Current Office : Pune Head Office ▼
+
+🔔 Notifications (18)
+
+📅 Today : Wednesday, 05 Aug 2026
+
+👤 Admin : Rahul Sharma
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+---
+
+# 📋 Sidebar
+
+```text
+🏠 Dashboard
+
+👥 Employee Management
+
+👨‍💼 HR Management
+
+📞 Telecalling
+
+📈 Digital Marketing
+
+💰 Finance
+
+🛠 Technical Support
+
+🏢 Gallery Management
+
+👑 Franchise Management
+
+👨‍👩‍👧 Member Management
+
+👨‍💼 Owner Management
+
+📦 Inventory
+
+🏪 Asset Management
+
+🧾 Purchase Management
+
+💳 Subscription Management
+
+🎁 Referral Management
+
+💵 Wallet Management
+
+💳 Payment Gateway
+
+🏦 Banking
+
+📄 Documents
+
+📂 File Manager
+
+🗂 Approvals
+
+📢 Notifications
+
+💬 Communication Center
+
+📊 Reports
+
+📈 Analytics
+
+🤖 AI Assistant
+
+⚙ System Settings
+
+🔐 User Permissions
+
+📜 Audit Logs
+
+📚 Knowledge Base
+```
+
+---
+
+# Executive Dashboard
+
+```text
+Total Employees
+
+245
+
+--------------------------------
+
+Today's Attendance
+
+228
+
+--------------------------------
+
+Today's Revenue
+
+₹18,45,000
+
+--------------------------------
+
+Today's Expenses
+
+₹4,52,000
+
+--------------------------------
+
+Active Galleries
+
+82
+
+--------------------------------
+
+Total Members
+
+18,250
+
+--------------------------------
+
+Active Franchise
+
+56
+
+--------------------------------
+
+Total Leads
+
+4,520
+
+--------------------------------
+
+Today's Sales
+
+₹8,90,000
+
+--------------------------------
+
+Pending Approvals
+
+21
+
+--------------------------------
+
+Open Tickets
+
+38
+
+--------------------------------
+
+Server Health
+
+99.98%
+```
+
+---
+
+# Company Overview
+
+```text
+Registered Members
+
+Active Members
+
+Inactive Members
+
+Blocked Members
+
+Total Employees
+
+Departments
+
+Offices
+
+Franchises
+
+Owners
+
+Partners
+
+Vendors
+
+Customers
+
+Projects
+
+Assets
+
+Subscriptions
+
+Licenses
+
+```
+
+---
+
+# Employee Control
+
+Admin can
+
+```text
+Add Employee
+
+Update Employee
+
+Transfer Employee
+
+Promote Employee
+
+Deactivate Employee
+
+Reactivate Employee
+
+Block Login
+
+Reset Password
+
+Assign Role
+
+Assign Office
+
+Assign Department
+
+Assign Manager
+
+Assign Assets
+
+Salary Approval
+
+Attendance Approval
+
+Leave Approval
+
+Task Assignment
+```
+
+---
+
+# Office Management
+
+```text
+Office ID
+
+Office Name
+
+Office Code
+
+City
+
+State
+
+Country
+
+Manager
+
+Employees
+
+Attendance
+
+Revenue
+
+Expenses
+
+Status
+```
+
+Buttons
+
+```text
+Add Office
+
+Edit
+
+Close Office
+
+Transfer Employees
+
+View Analytics
+```
+
+---
+
+# Department Management
+
+```text
+HR
+
+Finance
+
+Marketing
+
+Digital Marketing
+
+Development
+
+Technical Support
+
+Gallery
+
+Operations
+
+Admin
+
+Telecalling
+
+Customer Support
+
+Sales
+```
+
+Buttons
+
+```text
+Add Department
+
+Edit
+
+Assign Head
+
+Department Reports
+```
+
+---
+
+# Approval Center
+
+Everything comes here.
+
+```text
+Leave Requests
+
+Salary Approval
+
+Expense Approval
+
+Purchase Approval
+
+Asset Request
+
+Recruitment Approval
+
+Promotion
+
+Transfer
+
+Investment
+
+Profit Distribution
+
+Wallet Withdrawal
+
+Subscription
+
+Membership
+
+Franchise Approval
+
+Gallery Approval
+
+Vendor Approval
+```
+
+Buttons
+
+```text
+Approve
+
+Reject
+
+Send Back
+
+Comment
+```
+
+---
+
+# Company Communication Center
+
+Admin can send
+
+```text
+Email
+
+WhatsApp
+
+SMS
+
+Push Notification
+
+App Notification
+
+Circular
+
+Announcement
+
+Emergency Alert
+
+Birthday Wishes
+
+Festival Wishes
+```
+
+Recipients
+
+```text
+Entire Company
+
+Department
+
+Office
+
+Gallery
+
+Selected Employees
+
+Members
+
+Owners
+
+Franchise
+```
+
+---
+
+# Task Management
+
+```text
+Task ID
+
+Task Name
+
+Department
+
+Priority
+
+Assigned By
+
+Assigned To
+
+Due Date
+
+Estimated Hours
+
+Completion
+
+Status
+```
+
+Buttons
+
+```text
+Assign
+
+Reassign
+
+Approve
+
+Close
+
+Escalate
+```
+
+---
+
+# Role & Permission Manager
+
+Admin controls
+
+```text
+Create Roles
+
+Edit Roles
+
+Delete Roles
+
+Permission Matrix
+
+Module Access
+
+Button Access
+
+Report Access
+
+Export Permission
+
+Print Permission
+
+Delete Permission
+
+Financial Permission
+
+Approval Rights
+```
+
+---
+
+# System Monitoring
+
+```text
+CPU Usage
+
+RAM Usage
+
+Storage
+
+Database
+
+API Health
+
+Server Status
+
+Email Queue
+
+SMS Queue
+
+WhatsApp Queue
+
+Backup Status
+
+Last Backup
+
+Error Logs
+
+System Logs
+
+Live Users
+
+Current Sessions
+```
+
+---
+
+# Business Intelligence Dashboard
+
+```text
+Revenue
+
+Expenses
+
+Profit
+
+Growth
+
+Employee Productivity
+
+Lead Conversion
+
+Sales Performance
+
+Department Performance
+
+Gallery Performance
+
+Owner Performance
+
+Marketing ROI
+
+Customer Satisfaction
+
+Top Performing Office
+
+Top Performing Employee
+
+Top Performing Gallery
+
+Top Performing Franchise
+```
+
+---
+
+# Audit Center
+
+Every action.
+
+```text
+Date
+
+Time
+
+Employee
+
+Department
+
+Action
+
+IP Address
+
+Browser
+
+Device
+
+Location
+
+Old Value
+
+New Value
+
+Reason
+
+Status
+```
+
+---
+
+# Security Center
+
+```text
+Failed Logins
+
+Blocked Users
+
+Password Expiry
+
+2FA Status
+
+Login Locations
+
+Device History
+
+Session Timeout
+
+API Access
+
+Firewall Status
+
+VPN Users
+
+Security Alerts
+```
+
+---
+
+# Document Center
+
+```text
+Company Documents
+
+GST
+
+PAN
+
+Certificates
+
+Agreements
+
+Policies
+
+Employee Documents
+
+Gallery Agreements
+
+Vendor Contracts
+
+Insurance
+
+Licenses
+
+Audit Files
+```
+
+---
+
+# AI Control Center
+
+Admin AI can answer
+
+```text
+Show today's revenue.
+
+Who is absent today?
+
+Which gallery made highest sales?
+
+Show pending salaries.
+
+Generate monthly MIS.
+
+Show delayed tasks.
+
+Generate attendance report.
+
+Who needs promotion?
+
+Predict next month's hiring.
+
+Predict inventory requirements.
+
+Generate P&L.
+
+Generate payroll.
+
+Generate board meeting report.
+```
+
+---
+
+# Executive Reports (150+ Reports)
+
+## Company Reports
+
+* Company Overview Report
+* Daily MIS Report
+* Weekly MIS Report
+* Monthly MIS Report
+* Quarterly MIS Report
+* Yearly MIS Report
+* Custom Date Report
+* Company Performance Report
+* Growth Analysis Report
+* Business Health Report
+
+---
+
+## Employee Reports
+
+* Employee Master
+* Attendance
+* Productivity
+* Salary
+* Incentive
+* Leave
+* Overtime
+* Login History
+* Promotion
+* Transfer
+* Exit
+
+---
+
+## HR Reports
+
+* Recruitment
+* Interview
+* Offer Letter
+* Joining
+* Attrition
+* Performance
+* Appraisal
+* Training
+* Compliance
+
+---
+
+## Finance Reports
+
+* Profit & Loss
+* Balance Sheet
+* Cash Flow
+* General Ledger
+* Trial Balance
+* Expense Ledger
+* Income Ledger
+* Payroll
+* GST
+* TDS
+* Bank Reconciliation
+
+---
+
+## Gallery Reports
+
+* Gallery Performance
+* Gallery Revenue
+* Gallery Expenses
+* Gallery Inventory
+* Gallery Profit
+* Gallery Employee
+* Gallery Comparison
+
+---
+
+## Franchise Reports
+
+* Franchise Registration
+* Franchise Activation
+* Franchise Renewal
+* Franchise Revenue
+* Royalty Collection
+* Multi-Owner Report
+
+---
+
+## Marketing Reports
+
+* Campaign Performance
+* SEO
+* Google Ads
+* Meta Ads
+* WhatsApp Campaign
+* Email Campaign
+* Lead Generation
+* ROAS
+
+---
+
+## Technical Reports
+
+* Open Tickets
+* SLA
+* Hardware Issues
+* Software Issues
+* Network Downtime
+* Asset Maintenance
+
+---
+
+## Telecalling Reports
+
+* Daily Calls
+* Monthly Calls
+* Lead Conversion
+* Follow-up
+* Call Duration
+* Agent Performance
+
+---
+
+## Inventory Reports
+
+* Stock Report
+* Purchase Report
+* Vendor Report
+* Warehouse Report
+* Asset Report
+* Damaged Stock
+* Stock Valuation
+
+---
+
+## Member Reports
+
+* Membership
+* Referral
+* Wallet
+* Commission
+* Rank
+* Reward
+* Activation
+* KYC
+
+---
+
+# 📊 Company Command Center (CEO View)
+
+This should be the **main dashboard** shown to Admin after login:
+
+```text
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏢 Company Health Score : 94%
+
+💰 Revenue Today : ₹18.4L
+
+📈 Monthly Revenue : ₹4.2Cr
+
+💵 Net Profit : ₹96L
+
+👥 Employees Online : 198
+
+🟢 Productivity : 91%
+
+📞 Calls Today : 2,850
+
+🎯 Leads Generated : 460
+
+💳 New Members : 125
+
+🏢 Active Galleries : 82
+
+📦 Low Stock Alerts : 8
+
+⚠ Critical Issues : 3
+
+📋 Pending Approvals : 21
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+---
+
+# ⭐ Features That Make It Enterprise-Grade
+
+To differentiate your CRM from standard ERP systems, include these advanced capabilities:
+
+* **Global Search** across employees, members, galleries, tickets, invoices, assets, and reports from one search bar.
+* **Universal Approval Workflow** with configurable multi-level approvals (Manager → Department Head → Finance → Admin).
+* **Drag-and-Drop Dashboard Widgets** so Admins can customize their workspace.
+* **Cross-Module Timeline** showing all major business events in chronological order.
+* **Real-Time Activity Feed** of logins, approvals, sales, new members, ticket updates, and financial transactions.
+* **Scheduled Reports** that automatically email PDF/Excel reports daily, weekly, or monthly.
+* **Role-Based Data Visibility** ensuring Admins only see offices, galleries, and financial data they are authorized to access.
+* **Disaster Recovery Dashboard** with backup status, restore points, and system health monitoring.
+* **Executive KPI Cockpit** combining HR, Finance, Sales, Marketing, Operations, and Franchise metrics into one real-time command center for company leadership.
+
+This Admin Portal serves as the operational hub of the entire organization, giving administrators complete visibility and control over every department while maintaining strict permission boundaries with the Super Admin role.
+
+
+Yes. If your goal is to build **one of India's most advanced Enterprise CRM/ERP systems**, then the **Admin Panel** should not just manage data—it should become a **Business Command Center**.
+
+Think of products like:
+
+* SAP S/4 HANA
+* Oracle ERP Cloud
+* Microsoft Dynamics 365
+* Salesforce Enterprise
+* Zoho One
+* Odoo Enterprise
+* Monday Enterprise
+* ServiceNow
+
+These systems provide **real-time operational control** instead of just CRUD operations.
+
+---
+
+# 🏢 ADMIN COMMAND CENTER (LEVEL-2)
+
+---
+
+# 🖥 Executive Control Room
+
+This should be the first screen after login.
+
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🏢 COMPANY HEALTH SCORE
+
+96%
+
+███████████████████████
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Today's Revenue
+
+₹18,52,000
+
+Today's Expenses
+
+₹3,22,000
+
+Today's Profit
+
+₹15,30,000
+
+Cash Available
+
+₹2.4 Cr
+
+Bank Balance
+
+₹8.5 Cr
+
+Pending Collections
+
+₹72 Lakh
+
+Pending Payments
+
+₹28 Lakh
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+---
+
+# 🌎 Live Company Map
+
+Instead of cards.
+
+Display
+
+```
+India Map
+
+Pune Office
+
+Mumbai Office
+
+Delhi Office
+
+Nagpur Office
+
+Nashik Office
+
+Hyderabad Office
+
+Bangalore Office
+```
+
+Click office
+
+Shows
+
+* Employees
+* Revenue
+* Expenses
+* Attendance
+* Gallery Count
+* Productivity
+* Sales
+* Tickets
+* Inventory
+* Assets
+
+Everything live.
+
+---
+
+# Company Live Status
+
+```
+Employees Online
+
+178
+
+Working
+
+165
+
+Break
+
+8
+
+Meeting
+
+12
+
+WFH
+
+22
+
+Field
+
+18
+
+Idle
+
+5
+
+Offline
+
+17
+
+Late
+
+6
+
+Leave
+
+12
+```
+
+Updates every minute.
+
+---
+
+# 🌐 Live Department Health
+
+```
+HR
+
+██████████████
+
+95%
+
+Finance
+
+███████████████
+
+97%
+
+Marketing
+
+████████████
+
+89%
+
+Digital Marketing
+
+██████████████
+
+93%
+
+Technical Support
+
+███████████
+
+90%
+
+Development
+
+██████████████
+
+98%
+
+Gallery
+
+████████████
+
+92%
+
+Telecalling
+
+██████████
+
+86%
+```
+
+---
+
+# Company Activity Feed
+
+Exactly like Facebook.
+
+```
+09:00
+
+Vikram logged in.
+
+-----------------------
+
+09:02
+
+Salary Approved
+
+-----------------------
+
+09:10
+
+Gallery Registered
+
+-----------------------
+
+09:20
+
+Lead Converted
+
+-----------------------
+
+09:22
+
+Invoice Paid
+
+-----------------------
+
+09:35
+
+Employee Joined
+
+-----------------------
+
+09:50
+
+Server Restarted
+
+-----------------------
+
+10:05
+
+Google Ads Started
+```
+
+Every module sends activities here.
+
+---
+
+# Approval Command Center
+
+Instead of opening different modules.
+
+Everything appears in one place.
+
+```
+Leave Request
+
+Salary Approval
+
+Expense Approval
+
+Purchase Approval
+
+Asset Request
+
+New Employee
+
+Interview Approval
+
+Gallery Approval
+
+Franchise Approval
+
+Owner Addition
+
+Wallet Withdrawal
+
+Subscription
+
+Loan Request
+
+Capital Investment
+
+Profit Distribution
+
+Vendor Registration
+
+Customer Refund
+
+Marketing Budget
+
+Software Purchase
+```
+
+Buttons
+
+```
+Approve
+
+Reject
+
+Escalate
+
+Assign
+
+Comment
+```
+
+---
+
+# AI Company Copilot
+
+Admin simply types
+
+```
+Which employee is least productive?
+
+-------------------------
+
+Show today's highest gallery sales.
+
+-------------------------
+
+Generate company MIS.
+
+-------------------------
+
+Show delayed salaries.
+
+-------------------------
+
+Predict next month's revenue.
+
+-------------------------
+
+Who deserves promotion?
+
+-------------------------
+
+Which office has highest expenses?
+
+-------------------------
+
+Generate Board Meeting Report.
+```
+
+AI generates reports instantly.
+
+---
+
+# Command Search
+
+One search.
+
+```
+CTRL + K
+
+Search
+
+Employee
+
+Member
+
+Gallery
+
+Invoice
+
+Lead
+
+Wallet
+
+Owner
+
+Asset
+
+Stock
+
+Salary
+
+Expense
+
+Ticket
+
+Document
+
+Task
+
+Everything
+```
+
+Like Spotlight Search.
+
+---
+
+# Digital Twin
+
+Amazing feature.
+
+Shows
+
+```
+Company
+
+↓
+
+State
+
+↓
+
+Office
+
+↓
+
+Department
+
+↓
+
+Team
+
+↓
+
+Employee
+```
+
+Everything connected.
+
+Click any node.
+
+View
+
+Revenue
+
+Attendance
+
+Tasks
+
+Sales
+
+Assets
+
+Performance
+
+Inventory
+
+Expenses
+
+---
+
+# Business KPI Wall
+
+Large charts.
+
+```
+Revenue
+
+Expenses
+
+Profit
+
+Attendance
+
+Lead Conversion
+
+ROI
+
+Customer Satisfaction
+
+Employee Productivity
+
+Inventory Value
+
+Cash Flow
+
+Salary Cost
+
+Marketing ROI
+
+Gallery Growth
+
+Franchise Growth
+
+Referral Growth
+```
+
+---
+
+# AI Risk Engine
+
+Automatically detects.
+
+```
+High Attrition Risk
+
+Gallery Loss
+
+Fraud Suspicion
+
+Duplicate Payments
+
+Salary Errors
+
+Inventory Theft
+
+Low Productivity
+
+High Expenses
+
+Server Problems
+
+Pending Legal Cases
+
+Customer Churn
+```
+
+---
+
+# Fraud Detection
+
+AI checks
+
+```
+Duplicate Salary
+
+Duplicate Expense
+
+Duplicate Vendor
+
+Duplicate Customer
+
+Duplicate Member
+
+Duplicate Payment
+
+Fake Referral
+
+Multiple Login
+
+Suspicious Transactions
+```
+
+---
+
+# Workflow Builder
+
+Admin builds workflow visually.
+
+```
+Employee Joins
+
+↓
+
+HR Approval
+
+↓
+
+IT Approval
+
+↓
+
+Finance Approval
+
+↓
+
+Admin Approval
+
+↓
+
+Generate ID
+
+↓
+
+Assign Laptop
+
+↓
+
+Create Email
+
+↓
+
+Done
+```
+
+No coding.
+
+---
+
+# Automation Center
+
+Create automation.
+
+Example
+
+```
+If
+
+Employee absent 3 days
+
+↓
+
+Send HR notification
+
+↓
+
+Inform Manager
+
+↓
+
+Create Meeting
+
+↓
+
+Generate Warning
+
+↓
+
+Track Response
+```
+
+Thousands of automation.
+
+---
+
+# AI Decision Engine
+
+Automatically suggests.
+
+```
+Increase marketing budget.
+
+Reduce electricity cost.
+
+Move stock.
+
+Transfer employee.
+
+Hire developers.
+
+Renew software.
+
+Upgrade server.
+
+Increase inventory.
+
+Open new gallery.
+```
+
+---
+
+# Executive Calendar
+
+Shows
+
+```
+Meetings
+
+Interviews
+
+Renewals
+
+Salary Date
+
+GST Date
+
+Rent
+
+Electricity
+
+Birthday
+
+Anniversary
+
+Leave
+
+Training
+
+Project Deadline
+```
+
+---
+
+# Live Alerts
+
+```
+🔴 Server Down
+
+🟠 Gallery Offline
+
+🟡 Salary Pending
+
+🔴 Inventory Below Limit
+
+🟠 High Electricity Bill
+
+🔴 Cash Shortage
+
+🟡 Internet Down
+
+🔴 API Failed
+
+🟠 Low Attendance
+```
+
+---
+
+# Company Timeline
+
+Every event.
+
+```
+Company Started
+
+↓
+
+First Employee
+
+↓
+
+100 Employees
+
+↓
+
+First Gallery
+
+↓
+
+500 Members
+
+↓
+
+1000 Members
+
+↓
+
+Revenue Crossed
+
+↓
+
+New Office
+
+↓
+
+New Franchise
+
+↓
+
+Awards
+
+↓
+
+Expansion
+```
+
+---
+
+# Board Meeting Center
+
+One click.
+
+Generate
+
+```
+Company Summary
+
+Revenue
+
+Expenses
+
+Profit
+
+Department Analysis
+
+Gallery Analysis
+
+Employee Analysis
+
+Risk Analysis
+
+Future Forecast
+
+Investment Requirement
+
+Expansion Suggestion
+
+Action Items
+```
+
+---
+
+# Audit Intelligence
+
+Not just logs.
+
+AI explains.
+
+```
+Who changed?
+
+What changed?
+
+Why changed?
+
+Previous Value
+
+New Value
+
+Approved By
+
+IP Address
+
+Browser
+
+Screenshot
+
+Device
+
+Location
+
+Rollback Available
+```
+
+---
+
+# Admin Performance Dashboard
+
+Admin's own KPIs:
+
+```
+Approvals Completed
+
+Pending Approvals
+
+Employee Issues Resolved
+
+Average Approval Time
+
+Policy Compliance
+
+System Uptime
+
+Automation Success
+
+Escalations Handled
+
+User Satisfaction
+
+Department SLA
+```
+
+---
+
+# 📊 250+ Executive Reports
+
+Instead of basic reports, organize them into **Business Intelligence**.
+
+### Executive Reports
+
+* CEO Dashboard
+* COO Dashboard
+* CFO Dashboard
+* CHRO Dashboard
+* CMO Dashboard
+* CTO Dashboard
+* Branch Performance
+* Office Performance
+* Gallery Performance
+* Department Scorecard
+
+### Financial Intelligence
+
+* Budget vs Actual
+* Forecast vs Actual
+* Cash Flow Forecast
+* Profitability by Gallery
+* Cost Center Analysis
+* Expense Trend
+* Margin Analysis
+
+### Operational Intelligence
+
+* SLA Compliance
+* Employee Utilization
+* Productivity Heatmap
+* Task Aging Analysis
+* Ticket Aging Analysis
+* Approval Cycle Time
+* Process Bottleneck Report
+
+### AI Predictive Reports
+
+* Revenue Forecast (30/60/90 days)
+* Employee Attrition Forecast
+* Sales Forecast
+* Inventory Demand Forecast
+* Cash Requirement Forecast
+* Hiring Forecast
+* Customer Churn Prediction
+* Franchise Expansion Recommendation
+
+---
+
+# 🌟 Enterprise Features That Differentiate Your CRM
+
+To make your platform stand out from existing ERP solutions:
+
+* **Multi-Tenant Architecture** (support multiple companies on one platform with isolated data).
+* **Dynamic Form Builder** so Admins can create new forms without coding.
+* **Dynamic Report Builder** with drag-and-drop fields, filters, charts, and export options.
+* **Dynamic Dashboard Builder** allowing each role to customize widgets and layouts.
+* **Rule Engine** for approvals, validations, incentives, commissions, and notifications.
+* **Event Bus & Notification Center** delivering real-time updates via in-app alerts, email, WhatsApp, SMS, and push notifications.
+* **Low-Code Workflow Designer** for creating business processes visually.
+* **Central Data Lake & BI Engine** for advanced analytics across every module.
+* **API & Webhook Management** to integrate with payment gateways, HRMS, accounting software, biometric devices, CRMs, and third-party services.
+* **Feature Flags & Module Licensing** to enable or disable modules per company or subscription plan.
+* **Versioned Audit Trail** with rollback capability for critical master data changes.
+* **Disaster Recovery & Business Continuity Dashboard** monitoring backups, replication, uptime, and failover readiness.
+* **Command Palette (Ctrl + K)** for instant access to any employee, report, action, or module.
+* **Dark Mode, Multi-Language, Multi-Currency, and Multi-Timezone** support for enterprise deployments.
+
+These capabilities move the Admin Portal beyond a standard administration panel into a true **Enterprise Operations Control Center**, capable of managing thousands of employees, hundreds of branches and galleries, and millions of transactions from a single unified interface.
+

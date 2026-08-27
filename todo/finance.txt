@@ -1,0 +1,572 @@
+For a professional Finance Portal in your CRM, the finance department should have complete control over income, expenses, payroll, office-wise accounting, and ledgers. Below is a simple text layout that your developers can directly use as a UI blueprint.
+
+Finance Dashboard
+------------------------------------------------------------
+☰ Menu                    Finance Dashboard
+
+🔍 Search Expenses, Employees, Bills, Ledger...
+
+📍 Current Office:
+[Pune Head Office ▼]
+
+(Change Office)
+
+🔔 Notifications
+
+👤 Finance Manager
+------------------------------------------------------------
+Left Sidebar
+🏠 Dashboard
+
+💰 Revenue
+
+💸 Expenses
+
+👨‍💼 Employee Salary
+
+🏢 Office Expenses
+
+📑 Ledger
+
+🧾 Invoices
+
+🏦 Bank Transactions
+
+💳 Payments
+
+📊 GST & Tax
+
+📦 Vendor Payments
+
+🏢 Office Management
+
+📈 Financial Reports
+
+📁 Documents
+
+⚙ Settings
+
+🚪 Logout
+Dashboard Cards
+💰 Total Revenue
+₹40,00,000
+[View]
+
+💸 Total Expenses
+₹18,50,000
+[View]
+
+💼 Monthly Profit
+₹21,50,000
+[View]
+
+👨‍💼 Employee Salary
+₹8,75,000
+[Payroll]
+
+🏢 Office Expenses
+₹3,45,000
+[View]
+
+🧾 Pending Payments
+₹2,20,000
+[Open]
+
+🏦 Bank Balance
+₹12,75,000
+[View]
+
+📑 Ledger Entries
+4,250
+[Open Ledger]
+Office Selection (Default)
+Current Office
+
+📍 Pune Head Office
+
+▼ Change Office
+
+Available Offices
+
+• Pune Head Office
+
+• Mumbai Office
+
+• Nashik Office
+
+• Nagpur Office
+
+• Delhi Office
+
+• Bangalore Office
+
+• Hyderabad Office
+
+• Ahmedabad Office
+
+(Search Office)
+
+Default: The finance user automatically sees the office where they are assigned. They can switch to another office anytime using the dropdown or search.
+
+Employee Salary
+Employee Name
+
+Employee ID
+
+Department
+
+Designation
+
+Basic Salary
+
+Bonus
+
+Incentive
+
+Deduction
+
+Net Salary
+
+Salary Month
+
+Payment Status
+
+Transaction ID
+
+Payment Date
+
+Remarks
+
+Buttons
+
+Process Salary
+
+View Salary Slip
+
+Download PDF
+
+Export Excel
+Salary Department Wise
+Department
+
+No. of Employees
+
+Monthly Salary
+
+Paid
+
+Pending
+
+Actions
+
+HR
+
+Finance
+
+Sales
+
+Marketing
+
+Digital Marketing
+
+Telecalling
+
+Gallery Team
+
+Operations
+
+Technical Support
+
+Development
+
+Admin
+
+Customer Support
+
+Buttons
+
+View Details
+
+Salary Report
+
+Export
+Office Expense Categories
+Electricity Bill
+
+Internet / WiFi Bill
+
+Office Rent
+
+Tea & Coffee Expense
+
+Pantry Expense
+
+Stationery Expense
+
+Office Maintenance
+
+Furniture Expense
+
+Infrastructure Expense
+
+Software Subscription
+
+Domain & Hosting
+
+Cloud Server
+
+Internet Recharge
+
+Travel Expense
+
+Fuel Expense
+
+Courier Expense
+
+Cleaning Expense
+
+Security Expense
+
+Water Bill
+
+Printer & Ink Expense
+
+Miscellaneous Expense
+Expense Entry
+Expense ID
+
+Expense Category
+
+Office Name
+
+Department
+
+Expense Date
+
+Vendor Name
+
+Bill Number
+
+Amount
+
+GST
+
+Payment Mode
+
+Transaction ID
+
+Paid By
+
+Approved By
+
+Reason
+
+Description
+
+Attachment
+
+Status
+
+Buttons
+
+Add Expense
+
+Edit
+
+Delete
+
+View
+
+Download Bill
+Revenue
+Invoice Number
+
+Client Name
+
+Project
+
+Amount
+
+GST
+
+Received Amount
+
+Pending Amount
+
+Payment Date
+
+Transaction ID
+
+Status
+
+Buttons
+
+View Invoice
+
+Download
+
+Send Reminder
+Ledger
+Ledger ID
+
+Date
+
+Office
+
+Transaction Type
+
+Income / Expense
+
+Category
+
+Employee/Vendor Name
+
+Invoice Number
+
+Transaction ID
+
+Amount
+
+Debit
+
+Credit
+
+Balance
+
+Payment Method
+
+Reference
+
+Approved By
+
+Created By
+
+Remarks
+
+Buttons
+
+View
+
+Edit
+
+Print
+
+Export PDF
+
+Export Excel
+Bank Transactions
+Transaction ID
+
+Bank Name
+
+Account
+
+Date
+
+Amount
+
+Debit
+
+Credit
+
+Purpose
+
+Reference Number
+
+Status
+
+Buttons
+
+View
+
+Download Statement
+Vendor Payments
+Vendor Name
+
+Vendor ID
+
+Category
+
+Invoice Number
+
+Bill Amount
+
+Paid Amount
+
+Balance
+
+Due Date
+
+Transaction ID
+
+Status
+
+Buttons
+
+Pay Now
+
+View Invoice
+GST & Tax
+GST Collected
+
+GST Paid
+
+Input GST
+
+Output GST
+
+TDS
+
+Professional Tax
+
+Income Tax
+
+GST Filing Status
+
+Last Filing Date
+
+Buttons
+
+Generate Report
+
+Download GST Report
+Financial Reports
+Daily Expense Report
+
+Monthly Expense Report
+
+Office-wise Expense Report
+
+Department-wise Expense Report
+
+Employee Salary Report
+
+Vendor Payment Report
+
+Bank Transaction Report
+
+Ledger Report
+
+Profit & Loss Report
+
+Cash Flow Report
+
+GST Report
+
+Annual Financial Report
+
+Buttons
+
+View
+
+Download PDF
+
+Download Excel
+
+Print
+Quick Action Buttons
++ Add Expense
+
++ Create Invoice
+
++ Process Salary
+
++ Add Vendor
+
++ Add Ledger Entry
+
++ Upload Bill
+
++ Export Reports
+
++ Generate Financial Report
+Search Filters
+Search by
+
+Employee Name
+
+Employee ID
+
+Office
+
+Department
+
+Vendor
+
+Invoice Number
+
+Transaction ID
+
+Expense Category
+
+Bill Number
+
+Date
+
+Amount
+
+Payment Status
+Permissions
+
+A Finance user should be able to:
+
+✅ View all offices (based on permission)
+✅ Switch between offices
+✅ Add/Edit/Delete expenses
+✅ Process employee salaries
+✅ View department-wise salary reports
+✅ Maintain complete ledger
+✅ Manage vendor payments
+✅ Manage invoices
+✅ View GST reports
+✅ Export PDF and Excel reports
+✅ Upload bills and payment proofs
+✅ Track every financial transaction
+Complete Ledger Fields (Most Important)
+Ledger ID
+
+Entry Date
+
+Office Name
+
+Department
+
+Transaction Type (Income / Expense)
+
+Expense Category
+
+Employee/Vendor Name
+
+Reference ID
+
+Invoice Number
+
+Bill Number
+
+Transaction ID (UTR)
+
+Payment Method
+
+Amount
+
+Debit
+
+Credit
+
+Running Balance
+
+Reason
+
+Description
+
+Attachment
+
+Approved By
+
+Created By
+
+Entry Status
+
+Last Modified Date
+
+Remarks

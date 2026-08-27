@@ -1,0 +1,660 @@
+For your ERP + CRM, the Digital Marketing Portal should be much more than just showing campaigns. It should become the complete workspace for your Digital Marketing Executive, where they manage SEO, paid ads, social media, websites, AI tools, creatives, and reporting.
+
+🌐 Digital Marketing Dashboard
+Header
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+☰ Menu
+
+Digital Marketing Dashboard
+
+🔍 Search Campaigns, Keywords, Ads, Landing Pages...
+
+📍 Current Office : Pune Head Office ▼
+
+🔔 Notifications
+
+👤 Neha Gupta
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Left Sidebar
+🏠 Dashboard
+
+📢 Campaigns
+
+📱 Social Media
+
+🎯 Paid Ads
+
+🌐 Website
+
+🔍 SEO
+
+✍ Content Marketing
+
+📧 Email Marketing
+
+📲 WhatsApp Marketing
+
+📩 SMS Marketing
+
+🎥 Video Marketing
+
+🤖 AI Marketing Tools
+
+📊 Analytics
+
+👥 Leads Generated
+
+🎨 Creative Library
+
+📅 Marketing Calendar
+
+💰 Marketing Budget
+
+📈 Reports
+
+⚙ Settings
+Dashboard Cards
+📢 Active Campaigns
+12
+[View]
+
+💰 Monthly Budget
+₹8,50,000
+[Budget Report]
+
+💸 Ad Spend
+₹2,80,000
+[View]
+
+👥 Leads Generated
+1,240
+[View Leads]
+
+🌐 Website Visitors
+82,500
+[Analytics]
+
+📱 Social Media Reach
+4,80,000
+[View]
+
+🎯 Conversion Rate
+9.8%
+[View]
+
+💹 ROAS
+4.6X
+[View]
+
+📧 Email Open Rate
+48%
+
+💬 WhatsApp Campaigns
+18
+
+📲 SMS Campaigns
+12
+
+🔍 SEO Score
+91/100
+Today's Marketing Tasks
+Today's Tasks
+
+Create 2 Social Media Posts
+
+Reply to Comments
+
+Launch Facebook Campaign
+
+Check Google Ads
+
+Review SEO Ranking
+
+Optimize Landing Page
+
+Publish Blog
+
+Review Analytics
+
+Generate Weekly Report
+
+Progress
+
+██████████████░░░░░░
+
+70%
+
+7 / 10 Completed
+Monthly Target
+Monthly Lead Target
+
+Required
+
+2500
+
+Generated
+
+1825
+
+Remaining
+
+675
+
+████████████████░░░░
+
+73%
+
+Status
+
+In Progress
+Campaign Management
+Field
+Campaign ID
+Campaign Name
+Platform
+Campaign Type
+Budget
+Daily Budget
+Start Date
+End Date
+Objective
+Audience
+Impressions
+Clicks
+CTR
+CPC
+CPM
+Leads
+Sales
+ROAS
+Status
+
+Buttons
+
+Create Campaign
+
+Pause
+
+Resume
+
+Duplicate
+
+Edit
+
+Analytics
+
+Delete
+Social Media Management
+Facebook
+
+Instagram
+
+LinkedIn
+
+Twitter (X)
+
+YouTube
+
+Pinterest
+
+Threads
+
+Google Business Profile
+
+For each platform
+
+Followers
+
+Posts Published
+
+Scheduled Posts
+
+Engagement
+
+Reach
+
+Likes
+
+Comments
+
+Shares
+
+Messages
+
+Profile Visits
+
+Buttons
+
+Create Post
+
+Schedule Post
+
+Boost Post
+
+View Analytics
+
+Reply Comments
+Website Management
+Website Visitors
+
+Unique Visitors
+
+Bounce Rate
+
+Average Session
+
+Top Pages
+
+Landing Pages
+
+Forms Submitted
+
+Downloads
+
+Website Speed
+
+Broken Links
+
+Buttons
+
+View Website
+
+Manage Pages
+
+Create Landing Page
+
+View Heatmap
+SEO Dashboard
+Website SEO Score
+
+Google Ranking
+
+Organic Traffic
+
+Backlinks
+
+Keywords Ranked
+
+Top Keywords
+
+Broken Links
+
+Page Speed
+
+Core Web Vitals
+
+Meta Titles
+
+Meta Descriptions
+
+Image SEO
+
+Internal Links
+
+External Links
+
+Schema Status
+
+Buttons
+
+SEO Audit
+
+Keyword Research
+
+Optimize Page
+
+Generate Meta Tags
+
+View Ranking
+Google Ads
+Campaign Name
+
+Budget
+
+Spend
+
+Clicks
+
+Impressions
+
+CTR
+
+Conversions
+
+Cost Per Lead
+
+ROAS
+
+Status
+
+Buttons
+
+Create Campaign
+
+Pause
+
+Resume
+
+Edit
+Meta Ads
+Campaign
+
+Ad Set
+
+Ads
+
+Budget
+
+Reach
+
+Leads
+
+Cost Per Lead
+
+ROAS
+
+Status
+
+Buttons
+
+Launch
+
+Pause
+
+Analytics
+WhatsApp Marketing
+Campaign Name
+
+Recipients
+
+Delivered
+
+Read
+
+Replies
+
+Conversions
+
+Buttons
+
+Create Campaign
+
+Upload Contacts
+
+Schedule
+
+Send Now
+Email Marketing
+Campaign
+
+Recipients
+
+Open Rate
+
+Click Rate
+
+Bounce Rate
+
+Replies
+
+Conversions
+
+Buttons
+
+Create Email
+
+Send
+
+Schedule
+SMS Marketing
+Campaign
+
+Messages Sent
+
+Delivered
+
+Failed
+
+Clicks
+
+Replies
+
+Buttons
+
+Create SMS
+
+Send
+
+Schedule
+AI Marketing Tools
+Generate Social Media Caption
+
+Generate Blog
+
+Generate Ad Copy
+
+Generate Email
+
+Generate WhatsApp Message
+
+Generate Hashtags
+
+Generate SEO Keywords
+
+Generate Image Prompt
+
+Generate Video Script
+
+Generate Landing Page Content
+
+Generate Product Description
+
+Rewrite Content
+
+Translate Content
+
+Grammar Check
+Content Calendar
+Date
+
+Campaign
+
+Platform
+
+Post Type
+
+Status
+
+Assigned To
+
+Buttons
+
+Add Content
+
+Edit
+
+Publish
+
+Schedule
+Creative Library
+Images
+
+Videos
+
+Posters
+
+Banners
+
+Logos
+
+Brand Guidelines
+
+Documents
+
+Buttons
+
+Upload
+
+Download
+
+Preview
+
+Share
+Marketing Budget
+Google Ads
+
+Facebook Ads
+
+Instagram Ads
+
+LinkedIn Ads
+
+SEO
+
+Content Writing
+
+Influencer Marketing
+
+Email Marketing
+
+SMS Marketing
+
+Events
+
+Total Budget
+
+Total Spent
+
+Remaining Budget
+Lead Analytics
+Total Leads
+
+Website Leads
+
+Facebook Leads
+
+Google Leads
+
+Instagram Leads
+
+WhatsApp Leads
+
+Referral Leads
+
+Organic Leads
+
+Converted Leads
+
+Lost Leads
+
+Cost Per Lead
+
+Revenue Generated
+Reports
+Daily Report
+Campaigns Created
+Budget Spent
+Leads Generated
+Website Visitors
+Social Media Posts Published
+Ad Performance
+Email Campaign Results
+WhatsApp Campaign Results
+SEO Tasks Completed
+AI Content Generated
+Today's Revenue
+Today's Conversions
+Weekly Report
+Weekly Lead Generation
+Campaign Performance
+Best Performing Ads
+Best Platform
+SEO Improvement
+Website Traffic Growth
+Social Media Growth
+Marketing Budget Utilized
+Cost Per Lead
+ROAS
+Revenue Generated
+Monthly Report
+Total Marketing Budget
+Total Ad Spend
+Total Leads Generated
+Qualified Leads
+Sales Generated
+Revenue Generated
+ROAS
+Website Traffic
+Organic Growth
+Google Ranking Improvement
+Top Performing Campaign
+Worst Performing Campaign
+Best Social Media Platform
+Email Performance
+WhatsApp Performance
+SEO Performance
+Content Published
+Conversion Rate
+Marketing Team Performance
+AI Tool Usage
+Department Productivity
+KPI Progress Bars
+Lead Generation
+
+████████████████░░░░
+
+73%
+
+Website Traffic
+
+██████████████████░░
+
+88%
+
+SEO Score
+
+███████████████████░
+
+91%
+
+Social Media Growth
+
+████████████████░░░░
+
+80%
+
+Campaign Performance
+
+█████████████████░░░
+
+85%
+
+Marketing Budget Usage
+
+████████████░░░░░░░░
+
+62%
+
+Monthly Revenue Goal
+
+███████████████░░░░░
+
+78%
+Bonus Features
+
+To make your CRM stand out, you can also add:
+
+🤖 AI Campaign Optimizer (suggests budget changes based on ROAS).
+📈 Competitor Analysis (track competitors' websites and ads).
+🔥 Trending Keywords (Google Trends integration).
+🎯 Lead Quality Score (Hot, Warm, Cold).
+📱 Social Media Inbox (Facebook, Instagram, LinkedIn messages in one place).
+📅 Content Approval Workflow (Marketing → Manager → Publish).
+🎥 AI Image & Video Generator for ad creatives.
+🔔 Alerts when campaigns overspend or underperform.
+📍 Office-wise marketing performance comparison.
+🏆 Monthly leaderboard for digital marketers based on leads, ROAS, content output, and campaign success.
+
+This design gives your Digital Marketing team a complete command center for planning, executing, monitoring, and optimizing every aspect of online marketing from a single CRM dashboard.

@@ -1,0 +1,535 @@
+Dashboard Overview
+Total Tasks
+Open Bugs
+In Progress
+Completed Tasks
+Pending Code Review
+Today's Tasks
+Overdue Tasks
+Current Sprint
+Story Points Completed
+Hours Worked Today
+📝 My Tasks
+Task ID
+Task Title
+Project Name
+Module
+Priority
+Status
+Assigned By
+Assigned Date
+Due Date
+Estimated Time
+Time Spent
+Progress (%)
+Action (View/Edit)
+🐞 Bug Tracker
+Bug ID
+Bug Title
+Project
+Module
+Priority
+Status
+Assigned To
+Reported By
+Created Date
+Due Date
+Expected Result
+Actual Result
+Attachment
+Comments
+🚀 Current Sprint
+Sprint Name
+Sprint Status
+Start Date
+End Date
+Sprint Progress
+Total Tasks
+Completed Tasks
+Pending Tasks
+💻 My Projects
+Project Name
+Client Name
+Project Status
+Start Date
+Deadline
+Progress
+🔄 Code Review
+Pull Request ID
+Branch Name
+Review Status
+Reviewer
+Created Date
+Merge Status
+📦 Deployments
+Environment (Development/Staging/Production)
+Version
+Deployment Status
+Last Deployment Date
+⏰ Time Tracker
+Clock In
+Clock Out
+Total Hours
+Break Time
+Weekly Hours
+📅 Today's Schedule
+Today's Tasks
+Meetings
+Deadlines
+Reminders
+🔔 Notifications
+New Task Assigned
+Bug Assigned
+Task Updated
+Sprint Started
+Sprint Completed
+Deployment Successful
+Code Review Request
+🖥️ IT Assets
+Asset Name
+Asset Code
+Device Type
+Serial Number
+Assigned Date
+Condition
+📚 Documents
+API Documentation
+Project Documents
+Database Design
+UI Designs
+User Manual
+👤 My Profile
+Employee ID
+Name
+Role
+Team
+Manager
+Email
+Mobile Number
+Joining Date
+⚡ Quick Actions
+Create New Task
+Report a Bug
+Update Task Status
+Log Work Hours
+Upload Files
+Request Leave
+View Sprint Board
+📈 Reports
+Task Completion Report
+Bug Report
+Sprint Report
+Work Hours Report
+Performance Report
+
+
+
+Developer Dashboard UI Layout (Simple Text Wireframe)
+Top Header
+---------------------------------------------------------------
+☰ Menu                     Developer Dashboard
+
+🔍 Search Tasks...
+
+🔔 Notifications    📩 Messages    🌙 Dark Mode
+
+👤 Profile ▼
+---------------------------------------------------------------
+Left Sidebar Menu
+🏠 Dashboard
+
+📋 My Tasks
+
+🐞 Bug Tracker
+
+🚀 Current Sprint
+
+📁 My Projects
+
+💻 Code Review
+
+📦 Deployments
+
+⏰ Time Tracker
+
+📅 Calendar
+
+📚 Documents
+
+🖥 IT Assets
+
+📈 Reports
+
+⚙ Settings
+
+🚪 Logout
+Dashboard Cards (Clickable Buttons)
+┌────────────────────┐
+│ 📋 Total Tasks      │
+│ 24                  │
+│ [View Tasks]        │
+└────────────────────┘
+
+┌────────────────────┐
+│ 🐞 Open Bugs        │
+│ 6                   │
+│ [View Bugs]         │
+└────────────────────┘
+
+┌────────────────────┐
+│ ⏳ In Progress      │
+│ 8                   │
+│ [Continue Work]     │
+└────────────────────┘
+
+┌────────────────────┐
+│ ✅ Completed        │
+│ 18                  │
+│ [View History]      │
+└────────────────────┘
+
+┌────────────────────┐
+│ 📅 Due Today        │
+│ 3                   │
+│ [Open Tasks]        │
+└────────────────────┘
+
+┌────────────────────┐
+│ 🚀 Current Sprint   │
+│ Sprint 14           │
+│ [View Sprint]       │
+└────────────────────┘
+
+┌────────────────────┐
+│ ⏱ Hours Logged      │
+│ 6h 45m              │
+│ [View Timesheet]    │
+└────────────────────┘
+
+┌────────────────────┐
+│ 📈 Productivity     │
+│ 92%                 │
+│ [View Report]       │
+└────────────────────┘
+My Tasks Section
+---------------------------------------------------------
+My Tasks
+
+[+ Create Task]   [Filter]   [Search]
+
+---------------------------------------------------------
+Task ID
+Task Name
+Project
+Priority
+Status
+Due Date
+Progress
+Actions
+---------------------------------------------------------
+
+Buttons
+
+👁 View
+
+✏ Edit
+
+▶ Start
+
+✔ Complete
+
+💬 Comment
+
+📎 Attach File
+Bug Tracker
+---------------------------------------------------------
+Bug Tracker
+
+[+ Report Bug]
+
+[Search Bug]
+
+[Filter]
+
+---------------------------------------------------------
+Bug ID
+Bug Title
+Project
+Priority
+Assigned To
+Status
+Created Date
+Actions
+---------------------------------------------------------
+
+Buttons
+
+👁 View
+
+✏ Update
+
+✔ Resolve
+
+🔁 Reopen
+
+💬 Comment
+
+📎 Upload Screenshot
+Current Sprint
+---------------------------------------------------------
+Current Sprint
+
+Sprint Name
+
+Sprint Progress
+
+Total Tasks
+
+Completed
+
+Pending
+
+Deadline
+
+Buttons
+
+📋 Sprint Board
+
+➕ Add Task
+
+📈 Sprint Report
+My Projects
+---------------------------------------------------------
+Project Name
+
+Client
+
+Status
+
+Progress
+
+Deadline
+
+Buttons
+
+👁 Open Project
+
+📂 Files
+
+💬 Discussion
+
+📊 Reports
+Code Review
+---------------------------------------------------------
+Pull Request
+
+Branch
+
+Review Status
+
+Reviewer
+
+Buttons
+
+👁 View PR
+
+✔ Approve
+
+✏ Request Changes
+
+💬 Comment
+Deployments
+---------------------------------------------------------
+Development
+
+Staging
+
+Production
+
+Version
+
+Deployment Date
+
+Buttons
+
+👁 View
+
+📄 Release Notes
+
+🔄 Rollback
+Time Tracker
+---------------------------------------------------------
+Today's Hours
+
+Clock In
+
+Clock Out
+
+Break Time
+
+Total Hours
+
+Buttons
+
+▶ Clock In
+
+⏸ Break
+
+■ Clock Out
+
+📊 Timesheet
+Calendar
+---------------------------------------------------------
+Today's Schedule
+
+Meetings
+
+Deadlines
+
+Sprint Dates
+
+Buttons
+
+➕ Add Event
+
+👁 View Calendar
+
+📅 Monthly View
+Documents
+---------------------------------------------------------
+API Documentation
+
+Project Files
+
+Database Design
+
+UI Design
+
+Buttons
+
+📖 Open
+
+⬇ Download
+
+📤 Upload
+IT Assets
+---------------------------------------------------------
+Asset Name
+
+Asset Code
+
+Serial Number
+
+Condition
+
+Buttons
+
+👁 View
+
+📝 Request Repair
+
+📄 Asset Details
+Notifications
+---------------------------------------------------------
+New Task Assigned
+
+Bug Assigned
+
+Code Review Request
+
+Deployment Successful
+
+Sprint Updated
+
+Buttons
+
+✔ Mark Read
+
+👁 Open
+
+🗑 Clear
+Reports
+---------------------------------------------------------
+Task Report
+
+Bug Report
+
+Sprint Report
+
+Time Report
+
+Performance Report
+
+Buttons
+
+👁 View
+
+⬇ Export PDF
+
+⬇ Export Excel
+
+📧 Email Report
+Profile
+---------------------------------------------------------
+Photo
+
+Employee ID
+
+Name
+
+Role
+
+Department
+
+Manager
+
+Email
+
+Phone
+
+Buttons
+
+✏ Edit Profile
+
+🔒 Change Password
+
+⚙ Account Settings
+Floating Action Button (Bottom Right)
+＋ Quick Actions
+
+When clicked:
+
+Create Task
+
+Report Bug
+
+Upload File
+
+Log Time
+
+Create Pull Request
+
+Request Leave
+
+Contact Team Lead
+Footer
+© 2026 ERP CRM
+
+Version 2.1.0
+
+Privacy Policy
+
+Terms & Conditions
+
+Support
+
+Help Center
+Suggested Button Colors
+🟢 Green: Complete, Approve, Deploy, Clock In
+🔵 Blue: View, Open, Reports
+🟡 Yellow: Edit, Update, Request Changes
+🟣 Purple: Create, Add New
+🔴 Red: Delete, Reject, Rollback
+⚫ Gray: Filter, Export, Download, Settings
+
+This layout gives developers a clean, enterprise-style dashboard where every major function is available as a clear button or menu item, making navigation fast and intuitive.
