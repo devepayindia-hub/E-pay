@@ -3,7 +3,7 @@
 # 1. Base Image
 FROM node:20-alpine AS base
 WORKDIR /app
-RUN apk add --no-cache libc6-compat
+RUN apk add --no-cache libc6-compat curl
 
 # 2. Dependencies Stage
 FROM base AS deps
