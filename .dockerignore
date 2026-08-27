@@ -1,81 +1,15 @@
-# Dependencies
 node_modules
-npm-debug.log
-yarn.lock
-
-# IDE and editor files
-.vscode
-.idea
-*.swp
-*.swo
-*~
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Git files
+.next
 .git
 .gitignore
-.gitattributes
-
-# GitHub workflows
-.github
-
-# Documentation
-*.md
-!README.md
-*.txt
-
-# Temporary files
-*.tmp
-*.temp
-~*.tmp
-
-# Log files
-*.log
-logs
-
-# Build outputs (will be rebuilt in container)
-dist
-build
-.cache
-
-# Firebase
-.firebase
-.firebase-emulator
-firebase-debug.log
-
-# Test files
-*.test.js
-*.spec.js
-jest.config.js
-coverage
-.nyc_output
-
-# Docker files (we don't need these in the container)
+.dockerignore
 Dockerfile
 docker-compose.yml
-.dockerignore
-
-# Environment files (copy required ones explicitly)
-.env
-.env.local
-.env.*.local
-
-# Deepseek temporary files
-deepseek_*
-
-# Session snapshots
-.session
-.kiro
-
-# Scripts
-scripts/*.sh
-scripts/*.bat
-scripts/*.ps1
-
-# Misc
-*.sh
-*.bat
-*.ps1
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env*.local
+scratch
+.vs
+.idea
+.vscode
