@@ -7,12 +7,14 @@ import StatCard from '@/components/StatCard';
 import DataTable from '@/components/DataTable';
 import { useAuth } from '@/lib/auth-context';
 import { ALL_ROLES } from '@/lib/rbac';
+import { db } from '@/lib/firebase';
+import { collection, onSnapshot } from 'firebase/firestore';
 import { 
   Crown, Cpu, Database, Server, RefreshCw, UserPlus, Users, 
   ShieldCheck, ShieldAlert, CheckCircle2, XCircle, Search, Filter, 
   Trash2, Edit3, Lock, Mail, Building, MapPin, Activity, 
   AlertCircle, ChevronDown, Check, KeyRound, UserCheck, Eye, EyeOff,
-  Clock, ThumbsUp, ThumbsDown, CheckCircle, AlertTriangle
+  Clock, ThumbsUp, ThumbsDown, CheckCircle, AlertTriangle, Radio
 } from 'lucide-react';
 
 const ROLE_CATEGORIES = {
@@ -35,6 +37,8 @@ export default function SuperAdminPage() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedRoleFilter, setSelectedRoleFilter] = useState('ALL');
   const [selectedStatusFilter, setSelectedStatusFilter] = useState('ALL');
+  const [dataSourceFilter, setDataSourceFilter] = useState('real'); // 'real' | 'all'
+  const [isFirestoreConnected, setIsFirestoreConnected] = useState(false);
   const [actionNotice, setActionNotice] = useState('');
 
   // Modal states
@@ -76,26 +80,63 @@ export default function SuperAdminPage() {
     { id: 'LOG-1004', actor: 'SECURITY_SCANNER', event: 'VULNERABILITY_AUDIT', details: 'Zero security policy breaches detected in Firestore tenant rules', timestamp: '2026-08-25 23:55' }
   ]);
 
-  // Load all users on mount
+  // Load all users on mount & when dataSourceFilter changes
   const refreshUsers = useCallback(async () => {
     setLoadingUsers(true);
     try {
-      const users = await getAllUsers();
+      const users = await getAllUsers({ includeSeedUsers: dataSourceFilter === 'all' });
       setUsersList(users || []);
     } catch (err) {
       console.warn('Error fetching users:', err);
     } finally {
       setLoadingUsers(false);
     }
-  }, [getAllUsers]);
+  }, [getAllUsers, dataSourceFilter]);
 
   useEffect(() => {
     refreshUsers();
+
+    let unsubUsers = null;
+    let unsubAudit = null;
+
+    if (db && typeof window !== 'undefined') {
+      try {
+        const usersCol = collection(db, 'tenants', 'default', 'users');
+        unsubUsers = onSnapshot(usersCol, (snapshot) => {
+          setIsFirestoreConnected(true);
+          refreshUsers();
+        }, (_err) => {
+          setIsFirestoreConnected(false);
+        });
+
+        const auditCol = collection(db, 'tenants', 'default', 'auditLogs');
+        unsubAudit = onSnapshot(auditCol, (snapshot) => {
+          if (!snapshot.empty) {
+            const logs = [];
+            snapshot.forEach(d => {
+              const data = d.data();
+              logs.push({
+                id: d.id,
+                actor: data.actor || data.actorEmail || data.userEmail || 'superadmin@epay.in',
+                event: data.eventType || data.event || 'AUDIT_LOG',
+                details: data.details || data.reason || `Action performed for ${data.targetUserEmail || data.targetEmail || 'system'}`,
+                timestamp: data.timestamp ? data.timestamp.slice(0, 16).replace('T', ' ') : new Date().toISOString().slice(0, 16).replace('T', ' ')
+              });
+            });
+            logs.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+            setAuditLogs(logs);
+          }
+        }, (_err) => {});
+      } catch (_e) {}
+    }
+
     if (typeof window !== 'undefined') {
       const handleSync = () => refreshUsers();
       window.addEventListener('epay_users_updated', handleSync);
       window.addEventListener('storage', handleSync);
       return () => {
+        if (unsubUsers) unsubUsers();
+        if (unsubAudit) unsubAudit();
         window.removeEventListener('epay_users_updated', handleSync);
         window.removeEventListener('storage', handleSync);
       };
@@ -325,10 +366,18 @@ export default function SuperAdminPage() {
                   <Crown className="w-6 h-6" />
                 </div>
                 <div>
-                  <h1 className="text-2xl font-black text-white tracking-tight flex items-center gap-2">
+                  <h1 className="text-2xl font-black text-white tracking-tight flex items-center gap-2 flex-wrap">
                     <span>Super Admin Governance & User Management</span>
                     <span className="text-xs px-2.5 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/30 font-semibold">
                       Master Authority
+                    </span>
+                    <span className={`text-xs px-2.5 py-0.5 rounded-full font-bold flex items-center gap-1.5 border ${
+                      dataSourceFilter === 'real'
+                        ? 'bg-emerald-500/10 text-emerald-300 border-emerald-500/30'
+                        : 'bg-amber-500/10 text-amber-300 border-amber-500/30'
+                    }`}>
+                      <span className={`w-2 h-2 rounded-full ${dataSourceFilter === 'real' ? 'bg-emerald-400 animate-pulse' : 'bg-amber-400'}`} />
+                      <span>{dataSourceFilter === 'real' ? 'Real Firestore Users' : 'All Demo & Real Users'}</span>
                     </span>
                   </h1>
                   <p className="text-xs text-slate-400 mt-0.5">
@@ -571,7 +620,20 @@ export default function SuperAdminPage() {
                   />
                 </div>
 
-                <div className="flex flex-wrap items-center gap-3 w-full md:w-auto">
+              <div className="flex flex-wrap items-center gap-3 w-full md:w-auto">
+                  <div className="flex items-center gap-2 text-xs">
+                    <Database className="w-3.5 h-3.5 text-purple-400" />
+                    <span className="text-slate-400 font-medium">Data Source:</span>
+                    <select
+                      value={dataSourceFilter}
+                      onChange={(e) => setDataSourceFilter(e.target.value)}
+                      className="bg-slate-800 border border-purple-500/40 rounded-lg px-2.5 py-1.5 text-xs font-bold text-purple-300 focus:outline-none focus:border-purple-400"
+                    >
+                      <option value="real">⚡ Real Users Only (Firestore DB)</option>
+                      <option value="all">📦 All (Including Baseline Demo Users)</option>
+                    </select>
+                  </div>
+
                   <div className="flex items-center gap-2 text-xs">
                     <Filter className="w-3.5 h-3.5 text-slate-400" />
                     <span className="text-slate-400 font-medium">Role:</span>
