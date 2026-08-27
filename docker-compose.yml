@@ -6,16 +6,12 @@ services:
     container_name: epay_crm_app
     ports:
       - "3000:3000"
+    env_file:
+      - .env
     environment:
       - NODE_ENV=production
       - PORT=3000
       - HOSTNAME=0.0.0.0
-      - NEXT_PUBLIC_FIREBASE_API_KEY=AIzaSyCa9Ay3kJxJ_wNQjwLpTEYk_gHoGkk077U
-      - NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=epaycrm-63608.firebaseapp.com
-      - NEXT_PUBLIC_FIREBASE_PROJECT_ID=epaycrm-63608
-      - NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=epaycrm-63608.firebasestorage.app
-      - NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=230938995927
-      - NEXT_PUBLIC_FIREBASE_APP_ID=1:230938995927:web:74cb545097857710e61492
     restart: unless-stopped
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://localhost:3000/ || exit 1"]

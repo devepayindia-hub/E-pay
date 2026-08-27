@@ -18,10 +18,10 @@ module.exports = {
           900: '#0f172a',
         },
         sidebar: {
-          bg: '#0f172a',
-          hover: '#1e293b',
-          active: '#3b82f6',
-          text: '#94a3b8',
+          bg: '#047857',
+          hover: '#03543f',
+          active: '#10b981',
+          text: '#ecfdf5',
           textActive: '#ffffff',
         }
       },

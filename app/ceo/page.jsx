@@ -1841,14 +1841,17 @@ export default function CEOCommandSystem() {
 
     return (
         <div className="flex min-h-screen bg-slate-50 font-sans text-slate-900">
-            {/* Sidebar Navigation */}
-            <aside className={`w-64 bg-slate-900 text-slate-300 flex flex-col shrink-0 fixed inset-y-0 left-0 z-50 transition-transform ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 md:static`}>
-                <div className="p-4 border-b border-slate-850 flex items-center gap-3">
-                    <div className="w-8 h-8 rounded-xl bg-emerald-600 text-white font-black flex items-center justify-center text-base shadow">e</div>
-                    <span className="font-black text-white text-base tracking-tight leading-none">ePay <span className="text-emerald-400">CEO</span></span>
+            {/* Sidebar Navigation - Vibrant Solid Emerald Green Theme */}
+            <aside
+                style={{ backgroundColor: '#047857', color: '#ffffff' }}
+                className={`w-64 flex flex-col shrink-0 fixed inset-y-0 left-0 z-50 transition-transform border-r border-emerald-600 shadow-2xl ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'} md:translate-x-0 md:static`}
+            >
+                <div style={{ backgroundColor: '#03543f' }} className="p-4 border-b border-emerald-600 flex items-center gap-3">
+                    <div className="w-8 h-8 rounded-xl bg-white text-[#047857] font-black flex items-center justify-center text-base shadow-md">e</div>
+                    <span className="font-black text-white text-base tracking-tight leading-none">ePay <span className="text-emerald-200 font-extrabold">CEO</span></span>
                 </div>
-                <nav className="flex-1 p-3 space-y-1 overflow-y-auto text-xs">
-                    <div className="text-[10px] uppercase font-bold text-slate-500 px-3 py-1.5">CEO Command Center</div>
+                <nav className="flex-1 p-3 space-y-1 overflow-y-auto text-xs" style={{ backgroundColor: '#047857' }}>
+                    <div className="text-[10px] uppercase font-black tracking-wider px-3 py-1.5" style={{ color: '#a7f3d0' }}>CEO Command Center</div>
                     {[
                         ['dashboard', 'Executive Dashboard', 'fa-gauge-high'],
                         ['action-required', 'Action Required', 'fa-triangle-exclamation'],
@@ -1858,12 +1861,17 @@ export default function CEOCommandSystem() {
                         ['approval-center', 'Approval Center', 'fa-clipboard-check'],
                         ['escalations', 'Escalations', 'fa-circle-exclamation'],
                     ].map(([id, label, icon]) => (
-                        <div key={id} onClick={() => { setCurrentSection(id); setSidebarOpen(false); }} className={`flex items-center gap-3 px-3 py-2.5 rounded-lg cursor-pointer transition ${currentSection === id ? 'bg-emerald-600 text-white font-bold' : 'hover:bg-slate-800 text-slate-400'}`}>
+                        <div
+                            key={id}
+                            onClick={() => { setCurrentSection(id); setSidebarOpen(false); }}
+                            style={currentSection === id ? { backgroundColor: '#10b981', color: '#ffffff' } : { color: '#ecfdf5' }}
+                            className={`flex items-center gap-3 px-3 py-2.5 rounded-lg cursor-pointer transition ${currentSection === id ? 'font-black shadow-lg shadow-emerald-900/40' : 'hover:bg-[#03543f] hover:text-white font-medium'}`}
+                        >
                             <i className={`fa-solid ${icon} w-4 text-center`}></i>{label}
                         </div>
                     ))}
 
-                    <div className="text-[10px] uppercase font-bold text-slate-500 px-3 py-1.5 pt-4">👤 CEO Personal Office</div>
+                    <div className="text-[10px] uppercase font-black tracking-wider px-3 py-1.5 pt-4" style={{ color: '#a7f3d0' }}>👤 CEO Personal Office</div>
                     {[
                         ['ceo-tasks', 'My Daily Tasks', 'fa-list-check'],
                         ['ceo-calendar', 'My Calendar', 'fa-calendar-days'],
@@ -1876,12 +1884,17 @@ export default function CEOCommandSystem() {
                         ['ceo-alerts', 'Alerts & Notifications', 'fa-bell'],
                         ['ceo-daily-closing', 'Daily Closing Reflection', 'fa-moon'],
                     ].map(([id, label, icon]) => (
-                        <div key={id} onClick={() => { setCurrentSection(id); setSidebarOpen(false); }} className={`flex items-center gap-3 px-3 py-2.5 rounded-lg cursor-pointer transition ${currentSection === id ? 'bg-emerald-600 text-white font-bold' : 'hover:bg-slate-800 text-slate-400'}`}>
+                        <div
+                            key={id}
+                            onClick={() => { setCurrentSection(id); setSidebarOpen(false); }}
+                            style={currentSection === id ? { backgroundColor: '#10b981', color: '#ffffff' } : { color: '#ecfdf5' }}
+                            className={`flex items-center gap-3 px-3 py-2.5 rounded-lg cursor-pointer transition ${currentSection === id ? 'font-black shadow-lg shadow-emerald-900/40' : 'hover:bg-[#03543f] hover:text-white font-medium'}`}
+                        >
                             <i className={`fa-solid ${icon} w-4 text-center`}></i>{label}
                         </div>
                     ))}
 
-                    <div className="text-[10px] uppercase font-bold text-slate-500 px-3 py-1.5 pt-4">💰 Command & Reports</div>
+                    <div className="text-[10px] uppercase font-black tracking-wider px-3 py-1.5 pt-4" style={{ color: '#a7f3d0' }}>💰 Command & Reports</div>
                     {[
                         ['financial-command', 'Financial Command', 'fa-coins'],
                         ['gallery-command', 'Gallery Command', 'fa-store'],
@@ -1898,7 +1911,12 @@ export default function CEOCommandSystem() {
                         ['global-search', 'Global Search', 'fa-magnifying-glass'],
                         ['audit-accountability', 'Audit & Accountability', 'fa-clock-rotate-left'],
                     ].map(([id, label, icon]) => (
-                        <div key={id} onClick={() => { setCurrentSection(id); setSidebarOpen(false); }} className={`flex items-center gap-3 px-3 py-2.5 rounded-lg cursor-pointer transition ${currentSection === id ? 'bg-emerald-600 text-white font-bold' : 'hover:bg-slate-800 text-slate-400'}`}>
+                        <div
+                            key={id}
+                            onClick={() => { setCurrentSection(id); setSidebarOpen(false); }}
+                            style={currentSection === id ? { backgroundColor: '#10b981', color: '#ffffff' } : { color: '#ecfdf5' }}
+                            className={`flex items-center gap-3 px-3 py-2.5 rounded-lg cursor-pointer transition ${currentSection === id ? 'font-black shadow-lg shadow-emerald-900/40' : 'hover:bg-[#03543f] hover:text-white font-medium'}`}
+                        >
                             <i className={`fa-solid ${icon} w-4 text-center`}></i>{label}
                         </div>
                     ))}
