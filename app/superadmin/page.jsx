@@ -314,8 +314,11 @@ export default function SuperAdminPage() {
       return;
     }
     try {
-      await deleteUser(targetUser.uid);
-      setUsersList(prev => prev.filter(u => u.uid !== targetUser.uid));
+      await deleteUser(targetUser);
+      setUsersList(prev => prev.filter(u => u.uid !== targetUser.uid && u.email?.toLowerCase() !== targetUser.email?.toLowerCase()));
+      setActionNotice(`🗑️ User ${targetUser.name} (${targetUser.email}) has been permanently deleted.`);
+      setTimeout(() => setActionNotice(''), 4000);
+      await refreshUsers();
     } catch (err) {
       alert(err.message || 'Failed to delete user.');
     }
