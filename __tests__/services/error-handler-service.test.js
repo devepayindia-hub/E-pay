@@ -5,6 +5,8 @@
  * Requirements: 9.1, 9.2, 9.3
  */
 
+const ErrorHandlerService = require('../../services/error-handler-service');
+
 describe('ErrorHandlerService', () => {
     let errorHandler;
 

@@ -55,10 +55,10 @@ Write-Host "[INFO] Running build validation..." -ForegroundColor Cyan
 
 # Check required files exist
 $requiredFiles = @(
-    "index.html",
-    "firebase-config.js",
-    "auth-service.js",
-    "package.json"
+    "package.json",
+    "next.config.js",
+    "lib/firebase.js",
+    "lib/auth-context.js"
 )
 
 foreach ($file in $requiredFiles) {

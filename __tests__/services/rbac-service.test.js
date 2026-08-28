@@ -11,7 +11,7 @@
  * Requirements: 3.1, 3.2, 3.3
  */
 
-const RBACService = require('./rbac-service');
+const RBACService = require('../../services/rbac-service');
 
 describe('RBACService', () => {
     let rbacService;

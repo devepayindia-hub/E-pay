@@ -8,7 +8,7 @@
  */
 
 // Import the service
-const UserProfileService = require('./profile-service');
+const UserProfileService = require('../../services/profile-service');
 
 describe('UserProfileService', () => {
     let service;
