@@ -72,12 +72,7 @@ export default function SuperAdminPage() {
   const [editSubmitting, setEditSubmitting] = useState(false);
 
   // Telemetry & Audit state
-  const [auditLogs, setAuditLogs] = useState([
-    { id: 'LOG-1001', actor: 'superadmin@epay.in', event: 'USER_CREATED', details: 'Provisioned Sales Executive account for Amit Kumar', timestamp: '2026-08-26 09:15' },
-    { id: 'LOG-1002', actor: 'superadmin@epay.in', event: 'ROLE_CONFIG_SYNC', details: 'Synchronized RBAC permissions for 80+ enterprise roles', timestamp: '2026-08-26 08:30' },
-    { id: 'LOG-1003', actor: 'SYSTEM_DAEMON', event: 'SYSTEM_BACKUP', details: 'Full encrypted snapshot of user registry & attendance tables', timestamp: '2026-08-26 04:00' },
-    { id: 'LOG-1004', actor: 'SECURITY_SCANNER', event: 'VULNERABILITY_AUDIT', details: 'Zero security policy breaches detected in Firestore tenant rules', timestamp: '2026-08-25 23:55' }
-  ]);
+  const [auditLogs, setAuditLogs] = useState([]);
 
   // Load all users on mount
   const refreshUsers = useCallback(async () => {
