@@ -75,8 +75,8 @@ export default function Sidebar() {
 
   return (
     <aside
-      style={isCeo ? { backgroundColor: '#047857', color: '#ffffff' } : undefined}
-      className={`sidebar w-64 min-h-screen flex flex-col justify-between p-4 transition-all duration-300 ${
+      style={{ position: 'relative', zIndex: 30, ...(isCeo ? { backgroundColor: '#047857', color: '#ffffff' } : {}) }}
+      className={`sidebar w-64 shrink-0 min-h-screen flex flex-col justify-between p-4 transition-all duration-300 ${
         isCeo
           ? 'bg-[#047857] border-r border-emerald-600 text-white shadow-2xl shadow-emerald-950/50'
           : 'bg-slate-900 border-r border-slate-800 text-slate-300'

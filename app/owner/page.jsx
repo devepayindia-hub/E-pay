@@ -322,8 +322,8 @@ export default function OwnerPage() {
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f0fdf4; color: #1f2937; display: flex; min-height: 100vh; overflow: hidden; }
         
-        #sidebar { width: var(--sidebar-width); height: 100vh; background: #064e3b; color: #d1fae5; display: flex; flex-direction: column; position: fixed; top: 0; left: 0; z-index: 100; transition: transform 0.3s ease; overflow-y: auto; padding-bottom: 16px; border-right: 1px solid rgba(255, 255, 255, 0.08); }
-        #sidebar .brand { padding: 18px 20px; font-size: 20px; font-weight: 700; border-bottom: 1px solid rgba(255, 255, 255, 0.08); display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+        #owner-sidebar { width: var(--sidebar-width); height: 100vh; background: #064e3b; color: #d1fae5; display: flex; flex-direction: column; position: fixed; top: 0; left: 0; z-index: 100; transition: transform 0.3s ease; overflow-y: auto; padding-bottom: 16px; border-right: 1px solid rgba(255, 255, 255, 0.08); }
+        #owner-sidebar .brand { padding: 18px 20px; font-size: 20px; font-weight: 700; border-bottom: 1px solid rgba(255, 255, 255, 0.08); display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
         #sidebar .brand i { color: #6ee7b7; font-size: 22px; }
         #sidebar .brand span { color: #fff; }
         #sidebar .brand small { font-size: 10px; background: rgba(255,255,255,0.1); padding: 2px 8px; border-radius: 12px; margin-left: auto; color: #a7f3d0; }
