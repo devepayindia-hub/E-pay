@@ -4,22 +4,39 @@ import React from 'react';
 import Link from 'next/link';
 import { useAuth } from '@/lib/auth-context';
 import { ALL_ROLES } from '@/lib/rbac';
-import { Bell, Search, ShieldCheck, Crown, UserCheck, Shield } from 'lucide-react';
+import { Bell, Search, ShieldCheck, Crown, UserCheck, Shield, Menu } from 'lucide-react';
 
 export default function Header() {
   const { user, role, setRole } = useAuth();
   const isSuperAdmin = role === 'superadmin' || role === 'super-admin';
 
+  const toggleMobileSidebar = () => {
+    if (typeof document !== 'undefined') {
+      const sidebar = document.querySelector('.sidebar');
+      if (sidebar) {
+        sidebar.classList.toggle('open');
+      }
+    }
+  };
+
   return (
-    <header className="h-16 border-b border-slate-800 bg-slate-900/80 backdrop-blur-md px-6 flex items-center justify-between sticky top-0 z-40">
-      {/* Search Input */}
-      <div className="flex items-center gap-4 w-72 md:w-96">
+    <header className="h-16 border-b border-slate-800 bg-slate-900/80 backdrop-blur-md px-4 md:px-6 flex items-center justify-between sticky top-0 z-40">
+      {/* Search Input & Mobile Toggle */}
+      <div className="flex items-center gap-3 w-72 md:w-96">
+        <button
+          onClick={toggleMobileSidebar}
+          aria-label="Toggle navigation menu"
+          className="md:hidden p-2 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-emerald-500/50 transition-all"
+        >
+          <Menu className="w-5 h-5" />
+        </button>
+
         <div className="relative w-full">
-          <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+          <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
           <input
             type="text"
             placeholder="Search leads, operations, employees..."
-            className="w-full pl-9 pr-4 py-1.5 bg-slate-800/60 border border-slate-700/60 rounded-lg text-xs text-slate-200 placeholder-slate-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all"
+            className="w-full pl-9 pr-4 py-1.5 bg-slate-800/60 border border-slate-700/60 rounded-lg text-xs text-slate-200 placeholder-slate-400 focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-all"
           />
         </div>
       </div>

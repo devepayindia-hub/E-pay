@@ -1,132 +1,31 @@
-/**
- * Jest Setup File
- * Configures the test environment and global test utilities
- */
+import '@testing-library/jest-dom';
+import { TextEncoder, TextDecoder } from 'util';
+import { ReadableStream } from 'stream/web';
 
-// Disable console methods in tests to reduce noise
-global.console = {
-    ...console,
-    // Keep error and warn for debugging
-    log: jest.fn(),
-    debug: jest.fn(),
-    info: jest.fn()
-};
+global.TextEncoder = TextEncoder;
+global.TextDecoder = TextDecoder;
+global.ReadableStream = ReadableStream;
 
-// Mock Firebase SDK if not available in test environment
-global.firebase = global.firebase || {
-    initializeApp: jest.fn(),
-    apps: [],
-    auth: jest.fn(() => ({
-        useDeviceLanguage: jest.fn(),
-        signInWithEmailAndPassword: jest.fn(),
-        signOut: jest.fn(),
-        onAuthStateChanged: jest.fn(),
-        currentUser: null
-    })),
-    firestore: jest.fn(() => ({
-        settings: jest.fn(),
-        enablePersistence: jest.fn().mockResolvedValue(undefined),
-        collection: jest.fn(),
-        doc: jest.fn()
-    })),
-    database: jest.fn(() => ({
-        ref: jest.fn(),
-        goOnline: jest.fn(),
-        goOffline: jest.fn()
-    })),
-    crashlytics: jest.fn(() => ({
-        recordError: jest.fn(),
-        setCustomKey: jest.fn(),
-        log: jest.fn()
-    }))
-};
-
-// Mock localStorage
-const localStorageMock = {
-    getItem: jest.fn(),
-    setItem: jest.fn(),
-    removeItem: jest.fn(),
-    clear: jest.fn()
-};
-global.localStorage = localStorageMock;
-
-// Mock sessionStorage
-const sessionStorageMock = {
-    getItem: jest.fn(),
-    setItem: jest.fn(),
-    removeItem: jest.fn(),
-    clear: jest.fn()
-};
-global.sessionStorage = sessionStorageMock;
-
-// Mock BroadcastChannel
-global.BroadcastChannel = jest.fn((channel) => ({
-    name: channel,
-    postMessage: jest.fn(),
-    onmessage: null,
-    onmessageerror: null,
-    close: jest.fn()
-}));
-
-// Mock navigator
-Object.defineProperty(global, 'navigator', {
-    value: {
-        userAgent: 'Mozilla/5.0 (Test) AppleWebKit/537.36'
-    },
-    writable: true
-});
-
-// Mock window.location
-delete window.location;
-window.location = {
-    href: 'http://localhost/test',
-    hostname: 'localhost',
-    pathname: '/test',
-    search: '',
-    hash: '',
-    protocol: 'http:',
-    port: '',
-    reload: jest.fn(),
-    replace: jest.fn()
-};
-
-// Mock fetch API
-global.fetch = jest.fn();
-
-// Mock CustomEvent if not available
-if (typeof global.CustomEvent !== 'function') {
-    global.CustomEvent = class CustomEvent extends Event {
-        constructor(event, params) {
-            super(event, params);
-            this.detail = params && params.detail;
-        }
-    };
+if (typeof global.Response === 'undefined') {
+  global.Response = class Response {};
+  global.Headers = class Headers {};
+  global.Request = class Request {};
 }
 
-// Suppress act warnings in tests
-const originalError = console.error;
-beforeAll(() => {
-    console.error = (...args) => {
-        if (
-            typeof args[0] === 'string' &&
-            (args[0].includes('act') ||
-                args[0].includes('not wrapped in act'))
-        ) {
-            return;
-        }
-        originalError.call(console, ...args);
-    };
-});
+if (typeof global.fetch === 'undefined') {
+  global.fetch = jest.fn(() =>
+    Promise.resolve({
+      ok: true,
+      json: () => Promise.resolve({}),
+      text: () => Promise.resolve(''),
+    })
+  );
+}
 
-afterAll(() => {
-    console.error = originalError;
-});
-
-// Reset mocks before each test
-beforeEach(() => {
-    jest.clearAllMocks();
-    localStorageMock.getItem.mockClear();
-    localStorageMock.setItem.mockClear();
-    localStorageMock.removeItem.mockClear();
-    localStorageMock.clear.mockClear();
-});
+// Load environment variables for Jest test environment
+process.env.NEXT_PUBLIC_FIREBASE_API_KEY = process.env.NEXT_PUBLIC_FIREBASE_API_KEY || "AIzaSyCa9Ay3kJxJ_wNQjwLpTEYk_gHoGkk077U";
+process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN = process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || "epaycrm-63608.firebaseapp.com";
+process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID = process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || "epaycrm-63608";
+process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET = process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || "epaycrm-63608.firebasestorage.app";
+process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID = process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || "230938995927";
+process.env.NEXT_PUBLIC_FIREBASE_APP_ID = process.env.NEXT_PUBLIC_FIREBASE_APP_ID || "1:230938995927:web:74cb545097857710e61492";

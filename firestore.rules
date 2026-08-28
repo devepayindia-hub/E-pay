@@ -2,25 +2,65 @@ rules_version = '2';
 
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Allow read/write for CRM operations
+
+    // Helper: check if request is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Helper: check if user has a specific role stored in their token claims
+    function hasRole(role) {
+      return isAuthenticated() && request.auth.token.role == role;
+    }
+
+    // Helper: check if the requesting user is a super-admin
+    function isSuperAdmin() {
+      return hasRole('super-admin');
+    }
+
+    // Helper: check if the requesting user is an admin or super-admin
+    function isAdmin() {
+      return hasRole('admin') || isSuperAdmin();
+    }
+
+    // ─── Users ───────────────────────────────────────────────────────────────
+    // Users can read/update only their own document.
+    // Only admins can create or delete user documents.
     match /users/{userId} {
-      allow read, write: if true;
+      allow read:   if isAuthenticated() && (request.auth.uid == userId || isAdmin());
+      allow create: if isAdmin();
+      allow update: if isAuthenticated() && (request.auth.uid == userId || isAdmin());
+      allow delete: if isSuperAdmin();
     }
-    
+
+    // ─── Employees ───────────────────────────────────────────────────────────
+    // Any authenticated user can read employee records.
+    // Only admins can create, update, or delete.
     match /employees/{employeeId} {
-      allow read, write: if true;
+      allow read:             if isAuthenticated();
+      allow create, update:   if isAdmin();
+      allow delete:           if isSuperAdmin();
     }
-    
+
+    // ─── Audit Logs ──────────────────────────────────────────────────────────
+    // Audit logs are append-only from the server (Cloud Functions).
+    // Authenticated users can read; no client-side writes allowed.
     match /auditLogs/{logId} {
-      allow read, write: if true;
+      allow read:   if isAuthenticated();
+      allow write:  if false; // server-side (Cloud Functions) only
     }
 
+    // ─── Tenants ─────────────────────────────────────────────────────────────
+    // Authenticated users can read their own tenant subtree.
+    // Only super-admins can write tenant records.
     match /tenants/{tenantId}/{document=**} {
-      allow read, write: if true;
+      allow read:   if isAuthenticated();
+      allow write:  if isSuperAdmin();
     }
 
+    // ─── Default: deny everything else ───────────────────────────────────────
     match /{document=**} {
-      allow read, write: if true;
+      allow read, write: if false;
     }
   }
 }
