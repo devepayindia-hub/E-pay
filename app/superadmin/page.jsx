@@ -9,10 +9,10 @@ import { useAuth } from '@/lib/auth-context';
 import { ALL_ROLES } from '@/lib/rbac';
 import { db } from '@/lib/firebase';
 import { collection, onSnapshot } from 'firebase/firestore';
-import { 
-  Crown, Cpu, Database, Server, RefreshCw, UserPlus, Users, 
-  ShieldCheck, ShieldAlert, CheckCircle2, XCircle, Search, Filter, 
-  Trash2, Edit3, Lock, Mail, Building, MapPin, Activity, 
+import {
+  Crown, Cpu, Database, Server, RefreshCw, UserPlus, Users,
+  ShieldCheck, ShieldAlert, CheckCircle2, XCircle, Search, Filter,
+  Trash2, Edit3, Lock, Mail, Building, MapPin, Activity,
   AlertCircle, ChevronDown, Check, KeyRound, UserCheck, Eye, EyeOff,
   Clock, ThumbsUp, ThumbsDown, CheckCircle, AlertTriangle, Radio
 } from 'lucide-react';
@@ -37,7 +37,6 @@ export default function SuperAdminPage() {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedRoleFilter, setSelectedRoleFilter] = useState('ALL');
   const [selectedStatusFilter, setSelectedStatusFilter] = useState('ALL');
-  const [dataSourceFilter, setDataSourceFilter] = useState('real'); // 'real' | 'all'
   const [isFirestoreConnected, setIsFirestoreConnected] = useState(false);
   const [actionNotice, setActionNotice] = useState('');
 
@@ -80,18 +79,18 @@ export default function SuperAdminPage() {
     { id: 'LOG-1004', actor: 'SECURITY_SCANNER', event: 'VULNERABILITY_AUDIT', details: 'Zero security policy breaches detected in Firestore tenant rules', timestamp: '2026-08-25 23:55' }
   ]);
 
-  // Load all users on mount & when dataSourceFilter changes
+  // Load all users on mount
   const refreshUsers = useCallback(async () => {
     setLoadingUsers(true);
     try {
-      const users = await getAllUsers({ includeSeedUsers: dataSourceFilter === 'all' });
+      const users = await getAllUsers();
       setUsersList(users || []);
     } catch (err) {
       console.warn('Error fetching users:', err);
     } finally {
       setLoadingUsers(false);
     }
-  }, [getAllUsers, dataSourceFilter]);
+  }, [getAllUsers]);
 
   useEffect(() => {
     refreshUsers();
@@ -126,8 +125,8 @@ export default function SuperAdminPage() {
             logs.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
             setAuditLogs(logs);
           }
-        }, (_err) => {});
-      } catch (_e) {}
+        }, (_err) => { });
+      } catch (_e) { }
     }
 
     if (typeof window !== 'undefined') {
@@ -232,12 +231,12 @@ export default function SuperAdminPage() {
       setAuditLogs(prev => [newLog, ...prev]);
 
       setFormSuccess(`User ${payload.name} (${payload.email}) successfully provisioned and activated with role "${newUserRole}"!`);
-      
+
       setNewUserName('');
       setNewUserEmail('');
       setNewUserPassword('');
       setNewUserEmpId('');
-      
+
       await refreshUsers();
 
       setTimeout(() => {
@@ -327,9 +326,9 @@ export default function SuperAdminPage() {
   // Filtered users
   const filteredUsers = usersList.filter(u => {
     const q = searchQuery.toLowerCase();
-    const matchesSearch = !q || 
-      (u.name && u.name.toLowerCase().includes(q)) || 
-      (u.email && u.email.toLowerCase().includes(q)) || 
+    const matchesSearch = !q ||
+      (u.name && u.name.toLowerCase().includes(q)) ||
+      (u.email && u.email.toLowerCase().includes(q)) ||
       (u.employeeId && u.employeeId.toLowerCase().includes(q)) ||
       (u.role && u.role.toLowerCase().includes(q)) ||
       (u.department && u.department.toLowerCase().includes(q));
@@ -374,13 +373,9 @@ export default function SuperAdminPage() {
                     <span className="text-xs px-2.5 py-0.5 rounded-full bg-purple-500/20 text-purple-300 border border-purple-500/30 font-semibold">
                       Master Authority
                     </span>
-                    <span className={`text-xs px-2.5 py-0.5 rounded-full font-bold flex items-center gap-1.5 border ${
-                      dataSourceFilter === 'real'
-                        ? 'bg-emerald-500/10 text-emerald-300 border-emerald-500/30'
-                        : 'bg-amber-500/10 text-amber-300 border-amber-500/30'
-                    }`}>
-                      <span className={`w-2 h-2 rounded-full ${dataSourceFilter === 'real' ? 'bg-emerald-400 animate-pulse' : 'bg-amber-400'}`} />
-                      <span>{dataSourceFilter === 'real' ? 'Real Firestore Users' : 'All Demo & Real Users'}</span>
+                    <span className="text-xs px-2.5 py-0.5 rounded-full font-bold flex items-center gap-1.5 border bg-emerald-500/10 text-emerald-300 border-emerald-500/30">
+                      <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                      <span>Real Firestore Users</span>
                     </span>
                   </h1>
                   <p className="text-xs text-slate-400 mt-0.5">
@@ -402,7 +397,7 @@ export default function SuperAdminPage() {
                 <span>Add Staff User</span>
               </button>
 
-              <button 
+              <button
                 onClick={refreshUsers}
                 className="px-3.5 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs font-semibold rounded-xl border border-slate-700 flex items-center gap-1.5 transition-all"
                 title="Refresh User Directory"
@@ -415,37 +410,37 @@ export default function SuperAdminPage() {
 
           {/* Stats Bar */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            <StatCard 
-              title="Total Staff Users" 
-              value={totalUsers.toString()} 
-              change="Authorized Personnel" 
-              isPositive={true} 
-              icon={Users} 
-              color="purple" 
+            <StatCard
+              title="Total Staff Users"
+              value={totalUsers.toString()}
+              change="Authorized Personnel"
+              isPositive={true}
+              icon={Users}
+              color="purple"
             />
-            <StatCard 
-              title="Pending HR Requests" 
-              value={`${pendingApprovalUsers.length} Pending`} 
-              change={pendingApprovalUsers.length > 0 ? "Requires Authorization" : "All Approved"} 
-              isPositive={pendingApprovalUsers.length === 0} 
-              icon={Clock} 
-              color={pendingApprovalUsers.length > 0 ? "amber" : "emerald"} 
+            <StatCard
+              title="Pending HR Requests"
+              value={`${pendingApprovalUsers.length} Pending`}
+              change={pendingApprovalUsers.length > 0 ? "Requires Authorization" : "All Approved"}
+              isPositive={pendingApprovalUsers.length === 0}
+              icon={Clock}
+              color={pendingApprovalUsers.length > 0 ? "amber" : "emerald"}
             />
-            <StatCard 
-              title="Active Accounts" 
-              value={`${activeUsersCount} Active`} 
-              change={`${totalUsers - activeUsersCount} Inactive/Pending`} 
-              isPositive={true} 
-              icon={ShieldCheck} 
-              color="emerald" 
+            <StatCard
+              title="Active Accounts"
+              value={`${activeUsersCount} Active`}
+              change={`${totalUsers - activeUsersCount} Inactive/Pending`}
+              isPositive={true}
+              icon={ShieldCheck}
+              color="emerald"
             />
-            <StatCard 
-              title="Executive Leadership" 
-              value={execRolesCount.toString()} 
-              change="C-Suite & Board" 
-              isPositive={true} 
-              icon={Crown} 
-              color="blue" 
+            <StatCard
+              title="Executive Leadership"
+              value={execRolesCount.toString()}
+              change="C-Suite & Board"
+              isPositive={true}
+              icon={Crown}
+              color="blue"
             />
           </div>
 
@@ -453,11 +448,10 @@ export default function SuperAdminPage() {
           <div className="flex border-b border-slate-800 gap-6 text-sm font-semibold flex-wrap">
             <button
               onClick={() => setActiveTab('users')}
-              className={`pb-3 flex items-center gap-2 border-b-2 transition-all ${
-                activeTab === 'users'
+              className={`pb-3 flex items-center gap-2 border-b-2 transition-all ${activeTab === 'users'
                   ? 'border-purple-500 text-purple-400'
                   : 'border-transparent text-slate-400 hover:text-slate-200'
-              }`}
+                }`}
             >
               <Users className="w-4 h-4" />
               <span>User Directory ({filteredUsers.length})</span>
@@ -465,11 +459,10 @@ export default function SuperAdminPage() {
 
             <button
               onClick={() => setActiveTab('pending')}
-              className={`pb-3 flex items-center gap-2 border-b-2 transition-all relative ${
-                activeTab === 'pending'
+              className={`pb-3 flex items-center gap-2 border-b-2 transition-all relative ${activeTab === 'pending'
                   ? 'border-amber-500 text-amber-400'
                   : 'border-transparent text-slate-400 hover:text-slate-200'
-              }`}
+                }`}
             >
               <Clock className="w-4 h-4 text-amber-400" />
               <span>Pending HR Approvals</span>
@@ -482,11 +475,10 @@ export default function SuperAdminPage() {
 
             <button
               onClick={() => setActiveTab('audit')}
-              className={`pb-3 flex items-center gap-2 border-b-2 transition-all ${
-                activeTab === 'audit'
+              className={`pb-3 flex items-center gap-2 border-b-2 transition-all ${activeTab === 'audit'
                   ? 'border-purple-500 text-purple-400'
                   : 'border-transparent text-slate-400 hover:text-slate-200'
-              }`}
+                }`}
             >
               <ShieldCheck className="w-4 h-4" />
               <span>Audit Logs</span>
@@ -494,11 +486,10 @@ export default function SuperAdminPage() {
 
             <button
               onClick={() => setActiveTab('telemetry')}
-              className={`pb-3 flex items-center gap-2 border-b-2 transition-all ${
-                activeTab === 'telemetry'
+              className={`pb-3 flex items-center gap-2 border-b-2 transition-all ${activeTab === 'telemetry'
                   ? 'border-purple-500 text-purple-400'
                   : 'border-transparent text-slate-400 hover:text-slate-200'
-              }`}
+                }`}
             >
               <Cpu className="w-4 h-4" />
               <span>Infrastructure Telemetry</span>
@@ -623,20 +614,7 @@ export default function SuperAdminPage() {
                   />
                 </div>
 
-              <div className="flex flex-wrap items-center gap-3 w-full md:w-auto">
-                  <div className="flex items-center gap-2 text-xs">
-                    <Database className="w-3.5 h-3.5 text-purple-400" />
-                    <span className="text-slate-400 font-medium">Data Source:</span>
-                    <select
-                      value={dataSourceFilter}
-                      onChange={(e) => setDataSourceFilter(e.target.value)}
-                      className="bg-slate-800 border border-purple-500/40 rounded-lg px-2.5 py-1.5 text-xs font-bold text-purple-300 focus:outline-none focus:border-purple-400"
-                    >
-                      <option value="real">⚡ Real Users Only (Firestore DB)</option>
-                      <option value="all">📦 All (Including Baseline Demo Users)</option>
-                    </select>
-                  </div>
-
+                <div className="flex flex-wrap items-center gap-3 w-full md:w-auto">
                   <div className="flex items-center gap-2 text-xs">
                     <Filter className="w-3.5 h-3.5 text-slate-400" />
                     <span className="text-slate-400 font-medium">Role:</span>
@@ -705,11 +683,10 @@ export default function SuperAdminPage() {
                             <tr key={u.uid || u.email} className="hover:bg-slate-800/40 transition-colors">
                               <td className="px-5 py-4">
                                 <div className="flex items-center gap-3">
-                                  <div className={`w-9 h-9 rounded-xl border font-black text-xs flex items-center justify-center shrink-0 shadow-sm ${
-                                    isPending 
-                                      ? 'bg-amber-500/20 border-amber-500/40 text-amber-300' 
+                                  <div className={`w-9 h-9 rounded-xl border font-black text-xs flex items-center justify-center shrink-0 shadow-sm ${isPending
+                                      ? 'bg-amber-500/20 border-amber-500/40 text-amber-300'
                                       : 'bg-purple-600/30 border-purple-500/40 text-purple-300'
-                                  }`}>
+                                    }`}>
                                     {u.name ? u.name.slice(0, 2).toUpperCase() : 'EP'}
                                   </div>
                                   <div>
@@ -765,11 +742,10 @@ export default function SuperAdminPage() {
                                   <button
                                     disabled={isRoot}
                                     onClick={() => handleToggleStatus(u)}
-                                    className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold border transition-colors ${
-                                      isActive
+                                    className={`inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold border transition-colors ${isActive
                                         ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30 hover:bg-emerald-500/20'
                                         : 'bg-rose-500/10 text-rose-400 border-rose-500/30 hover:bg-rose-500/20'
-                                    } ${isRoot ? 'cursor-default' : 'cursor-pointer'}`}
+                                      } ${isRoot ? 'cursor-default' : 'cursor-pointer'}`}
                                     title={isRoot ? 'Root account always active' : 'Click to toggle status'}
                                   >
                                     {isActive ? <CheckCircle2 className="w-3 h-3" /> : <XCircle className="w-3 h-3" />}
